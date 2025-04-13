@@ -222,11 +222,11 @@ asv_seqs_fa %>%
   as.data.frame() %>% 
   write_tsv(file = paste0(path_out, "/ASV.fa"), col_names = FALSE)
 ## R objects
-path_obj <- paste0(path_out, "/05_saved_obj")
-dir.create(path_obj, recursive = TRUE)
-saveRDS(asv_tab, paste0(path_obj, "/ASV_tab.obj"))
-saveRDS(summary_tab, paste0(path_obj, "/summary_tab.obj"))
-saveRDS(asv_seqs_fa, paste0(path_obj, "/ASV_fa.obj"))
+path_rds <- paste0(path_out, "/05_saved_rds")
+dir.create(path_rds, recursive = TRUE)
+saveRDS(asv_tab, paste0(path_rds, "/ASV_tab.rds"))
+saveRDS(summary_tab, paste0(path_rds, "/summary_tab.rds"))
+saveRDS(asv_seqs_fa, paste0(path_rds, "/ASV_fa.rds"))
 ## Workspace
 paste0(path_out, "/saved.Rdata") %>% save.image()
 ## Session info
