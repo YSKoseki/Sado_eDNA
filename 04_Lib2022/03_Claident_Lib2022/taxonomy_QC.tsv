@@ -1,0 +1,281 @@
+query	superkingdom	kingdom	phylum	subphylum	superclass	class	subclass	infraclass	cohort	subcohort	superorder	order	suborder	infraorder	parvorder	superfamily	family	subfamily	tribe	genus	species	subspecies
+Lib2022_0001	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius	Gymnogobius petschiliensis	
+Lib2022_0002	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0003	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0004	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae				
+Lib2022_0005	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0006	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae		Oncorhynchus	Oncorhynchus masou	
+Lib2022_0007	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Trachurus		
+Lib2022_0008	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius	Rhinogobius brunneus	
+Lib2022_0009	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Leuciscidae	Pseudaspininae		Tribolodon	Tribolodon hakonensis	
+Lib2022_0010	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0011	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Xenocyprididae	Opsariichthyinae		Zacco	Zacco platypus	
+Lib2022_0012	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales			Cottidae					
+Lib2022_0013	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0014	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0015	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0016	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Tetraodontiformes	Tetraodontoidei			Tetradontoidea	Tetraodontidae			Takifugu		
+Lib2022_0017	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales			Cottidae			Cottus	Cottus kazika	
+Lib2022_0018	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus		
+Lib2022_0019	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae		Cyprinus		
+Lib2022_0020	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Seriola	Seriola dumerili	
+Lib2022_0021	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales			Cottidae					
+Lib2022_0022	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0023	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0024	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Tetraodontiformes	Tetraodontoidei			Tetradontoidea	Tetraodontidae			Takifugu	Takifugu alboplumbeus	
+Lib2022_0025	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Mugiliformes					Mugilidae			Planiliza		
+Lib2022_0026	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius	Gymnogobius urotaenia	
+Lib2022_0027	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0028	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0029	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Acanthogobius	Acanthogobius flavimanus	
+Lib2022_0030	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0031	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae		Oncorhynchus	Oncorhynchus masou	
+Lib2022_0032	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae		Cyprinus		
+Lib2022_0033	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Gobionidae	Sarcocheilichthyinae		Gnathopogon	Gnathopogon elongatus	Gnathopogon elongatus elongatus
+Lib2022_0034	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0035	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales			Cottidae					
+Lib2022_0036	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Tridentiger		
+Lib2022_0037	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Serranoidei				Serranidae	Epinephelinae	Epinephelini	Epinephelus		
+Lib2022_0038	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales			Cottidae			Cottus	Cottus kazika	
+Lib2022_0039	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Leucopsarion	Leucopsarion petersii	
+Lib2022_0040	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0041	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Gobionidae			Hemibarbus		
+Lib2022_0042	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae				
+Lib2022_0043	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Mugiliformes					Mugilidae			Mugil	Mugil cephalus	
+Lib2022_0044	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Luciogobius		
+Lib2022_0045	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Spariformes					Sparidae			Acanthopagrus		
+Lib2022_0046	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0047	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0048	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Luciogobius		
+Lib2022_0049	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0050	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0051	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0052	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Pempheriformes					Lateolabracidae			Lateolabrax	Lateolabrax japonicus	
+Lib2022_0053	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0054	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Gobionidae			Hemibarbus		
+Lib2022_0055	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Trachurus		
+Lib2022_0056	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Pempheriformes					Lateolabracidae			Lateolabrax	Lateolabrax japonicus	
+Lib2022_0057	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0058	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae		Carassius		
+Lib2022_0059	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0060	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Tetraodontiformes	Tetraodontoidei			Tetradontoidea	Tetraodontidae			Takifugu		
+Lib2022_0061	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Luciogobius		
+Lib2022_0062	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0063	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0064	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0065	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae				
+Lib2022_0066	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0067	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0068	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0069	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0070	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Trachurus		
+Lib2022_0071	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0072	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Xenocyprididae	Opsariichthyinae		Zacco	Zacco platypus	
+Lib2022_0073	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0074	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0075	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0076	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0077	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae		Carassius		
+Lib2022_0078	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0079	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0080	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Xenocyprididae	Opsariichthyinae		Zacco	Zacco platypus	
+Lib2022_0081	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0082	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Acheilognathidae					
+Lib2022_0083	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0084	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Trachurus		
+Lib2022_0085	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0086	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0087	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae		Oncorhynchus	Oncorhynchus masou	
+Lib2022_0088	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0089	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0090	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Luciogobius		
+Lib2022_0091	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Characiphysae	Siluriformes	Siluroidei				Siluridae			Silurus		
+Lib2022_0092	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Trachurus		
+Lib2022_0093																						
+Lib2022_0094	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0095	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0096	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0097	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0098	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Mugiliformes					Mugilidae			Planiliza		
+Lib2022_0099	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Centrarchiformes				Centrarchoidei	Centrarchidae			Micropterus	Micropterus salmoides	
+Lib2022_0100	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0101	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0102	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae				
+Lib2022_0103	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae				
+Lib2022_0104	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0105	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0106	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae		Salvelinus	Salvelinus leucomaenis	
+Lib2022_0107	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0108	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius	Gymnogobius petschiliensis	
+Lib2022_0109	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0110																						
+Lib2022_0111	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0112	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0113	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Xenocyprididae	Opsariichthyinae		Nipponocypris	Nipponocypris temminckii	
+Lib2022_0114	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae				
+Lib2022_0115	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Scombriformes					Scombridae	Scombrinae	Scombrini	Scomber		
+Lib2022_0116	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0117	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0118	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0119	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0120	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0121	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0122	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae		Oncorhynchus		
+Lib2022_0123	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0124	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0125	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0126	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0127	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0128	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Xenocyprididae	Opsariichthyinae		Nipponocypris	Nipponocypris temminckii	
+Lib2022_0129	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0130	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Centrarchiformes				Centrarchoidei	Centrarchidae			Lepomis	Lepomis macrochirus	
+Lib2022_0131	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0132	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0133	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0134	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0135	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0136	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0137	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0138	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0139	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0140	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0141	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0142	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae				
+Lib2022_0143	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0144	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Seriola	Seriola quinqueradiata	
+Lib2022_0145	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae				
+Lib2022_0146	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae				
+Lib2022_0147	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0148	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha		Atherinomorphae	Beloniformes	Belonoidei				Hemiramphidae			Hyporhamphus		
+Lib2022_0149	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Xenocyprididae	Opsariichthyinae		Zacco	Zacco platypus	
+Lib2022_0150	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha		Atherinomorphae	Beloniformes	Belonoidei				Hemiramphidae			Hyporhamphus		
+Lib2022_0151	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha								Sphyraenidae			Sphyraena	Sphyraena pinguis	
+Lib2022_0152	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0153	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0154	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0155	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0156																						
+Lib2022_0157	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0158	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0159	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0160	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0161	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0162	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0163	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha								Sillaginidae			Sillago		
+Lib2022_0164																						
+Lib2022_0165	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0166	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae				
+Lib2022_0167	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0168	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0169	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0170	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0171	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0172	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0173	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales			Cottidae					
+Lib2022_0174	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0175	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Scombriformes					Scombridae	Scombrinae	Thunnini	Thunnus		
+Lib2022_0176	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae		Salvelinus	Salvelinus leucomaenis	
+Lib2022_0177	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes					Salmonidae	Salmoninae		Oncorhynchus		
+Lib2022_0178	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Xenocyprididae	Opsariichthyinae		Zacco	Zacco platypus	
+Lib2022_0179	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Platycephaloidei				Platycephalidae			Platycephalus		
+Lib2022_0180	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0181	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Luciogobius		
+Lib2022_0182	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Leuciscidae	Pseudaspininae		Tribolodon	Tribolodon hakonensis	
+Lib2022_0183	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0184	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0185	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Tridentiger		
+Lib2022_0186	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0187	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0188																						
+Lib2022_0189	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0190	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae				
+Lib2022_0191	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0192	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0193	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0194	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Gobionidae	Sarcocheilichthyinae		Pseudorasbora	Pseudorasbora parva	
+Lib2022_0195	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0196	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Acheilognathidae					
+Lib2022_0197	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0198	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0199	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0200	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0201																						
+Lib2022_0202	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0203	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0204	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0205	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0206	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0207	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae				
+Lib2022_0208	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0209	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0210	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Tridentiger	Tridentiger trigonocephalus	
+Lib2022_0211	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0212	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0213	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0214	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Trachurus		
+Lib2022_0215	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0216	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0217	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes					Carangidae			Trachurus		
+Lib2022_0218	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0219																						
+Lib2022_0220	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0221	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Gobionidae	Sarcocheilichthyinae		Gnathopogon	Gnathopogon elongatus	Gnathopogon elongatus elongatus
+Lib2022_0222	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Leuciscidae	Pseudaspininae		Tribolodon	Tribolodon hakonensis	
+Lib2022_0223	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0224	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0225	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0226	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0227	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0228	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Scorpaenoidei				Sebastidae	Sebastinae		Sebastes		
+Lib2022_0229	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Leuciscidae	Pseudaspininae		Tribolodon		
+Lib2022_0230																						
+Lib2022_0231	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0232	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei				Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+Lib2022_0233	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0234	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Tridentiger		
+Lib2022_0235	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Luciogobius		
+Lib2022_0236	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius	Gymnogobius breunigii	
+Lib2022_0237	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0238	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0239	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0240	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0241	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0242	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales			Cottidae					
+Lib2022_0243	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Leuciscidae	Pseudaspininae		Tribolodon	Tribolodon hakonensis	
+Lib2022_0244	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Gobionidae	Sarcocheilichthyinae		Pseudorasbora		
+Lib2022_0245	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0246	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0247																						
+Lib2022_0248	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Cyprinidae	Cyprininae		Cyprinus		
+Lib2022_0249	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha		Atherinomorphae	Beloniformes	Adrianichthyoidei				Adrianichthyidae	Oryziinae		Oryzias		
+Lib2022_0250	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Gobionidae	Sarcocheilichthyinae		Gnathopogon		
+Lib2022_0251	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0252	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius	Gymnogobius urotaenia	
+Lib2022_0253	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0254	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Gymnogobius		
+Lib2022_0255																						
+Lib2022_0256	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Luciogobius		
+Lib2022_0257	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes					Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+Lib2022_0258	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Rhinogobius		
+Lib2022_0259	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei				Xenocyprididae	Opsariichthyinae		Zacco	Zacco platypus	
+Lib2022_0260																						
+Lib2022_0261																						
+Lib2022_0262	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Luciogobius		
+Lib2022_0263																						
+Lib2022_0264																						
+Lib2022_0265	Eukaryota	Metazoa	Chordata	Craniata	Sarcopterygii	Mammalia					Laurasiatheria	Artiodactyla	Suina				Suidae			Sus	Sus scrofa	
+Lib2022_0266																						
+Lib2022_0267																						
+Lib2022_0268																						
+Lib2022_0269																						
+Lib2022_0270	Eukaryota	Metazoa	Chordata	Craniata	Sarcopterygii	Mammalia					Laurasiatheria	Artiodactyla	Ruminantia	Pecora			Bovidae					
+Lib2022_0271																						
+Lib2022_0272																						
+Lib2022_0273																						
+Lib2022_0274																						
+Lib2022_0275																						
+Lib2022_0276	Eukaryota	Metazoa	Chordata	Craniata	Sarcopterygii	Mammalia					Euarchontoglires	Primates	Haplorrhini	Simiiformes	Catarrhini	Hominoidea	Hominidae	Homininae		Homo	Homo sapiens	
+Lib2022_0277	Eukaryota	Metazoa	Chordata	Craniata	Sarcopterygii	Aves		Neognathae				Passeriformes				Sylvioidea	Pycnonotidae			Hypsipetes		
+Lib2022_0278																						
+Lib2022_0279	Eukaryota	Metazoa	Chordata	Craniata	Sarcopterygii	Mammalia					Laurasiatheria	Carnivora	Caniformia				Canidae			Canis	Canis lupus	
+Lib2022_0280	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei				Gobiidae	Gobionellinae		Acanthogobius	Acanthogobius lactipes	
