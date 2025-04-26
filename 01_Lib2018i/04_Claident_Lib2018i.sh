@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# 03_Claident_Lib2018i.sh
+# 04_Claident_Lib2018i.sh
 # A shell script to assign taxonomy names to ASVs using the program Claident
 #  (Tanabe and Toju 2013)
 # Reference: https://github.com/astanabe/MetabarcodingTextbook/
@@ -8,7 +8,7 @@
 
 # Paths of input fasta file and output directory
 	INFILE=02_DADA2_Lib2018i/ASV.fa
-	OUTDIR=03_Claident_Lib2018i
+	OUTDIR=04_Claident_Lib2018i
 	
 # Claident command options
 ## Reference database
