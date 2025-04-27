@@ -6,7 +6,7 @@
 # Packages required
 library(dada2); packageVersion("dada2") # 1.34.0
 library(svglite); packageVersion("svglite") # 2.1.3
-library(scales); packageVersion("scales") # 1.3.0
+library(scales); packageVersion("scales") # 1.4.0
 library(tidyverse); packageVersion("tidyverse") # 2.0.0
 
 # Directory/File Paths for:
