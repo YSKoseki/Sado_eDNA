@@ -1,4 +1,4 @@
-# 03_gmmDenoise_Lib2018i.R
+# 03_gmmDenoise_Lib2022.R
 # An R script to filter false positive amplicon sequence variants using the 
 #  gmmDenoise method (Koseki et al. 2025)
 #  Reference https://github.com/YSKoseki/gmmDenoise
@@ -12,16 +12,16 @@ library(tidyverse); packageVersion("tidyverse") # 2.0.0
 
 # Paths
 ## ASV-sample table data
-path_asvtab <- "02_DADA2_Lib2018i/05_saved_rds/ASV_tab.rds"
+path_asvtab <- "02_DADA2_Lib2022/05_saved_rds/ASV_tab.rds"
 ## Summary table of the Cutadapt-DADA2 processing
-path_sumtab <- "02_DADA2_Lib2018i/05_saved_rds/summary_tab.rds"
+path_sumtab <- "02_DADA2_Lib2022/05_saved_rds/summary_tab.rds"
 ## ASV sequence data 
-path_asvfa <- "02_DADA2_Lib2018i/05_saved_rds/ASV_fa.rds"
+path_asvfa <- "02_DADA2_Lib2022/05_saved_rds/ASV_fa.rds"
 ## Output directory
-path_out <- "03_gmmDenoise_Lib2018i"
+path_out <- "03_gmmDenoise_Lib2022"
 
 # Library ID used as part of the sequence identifiers in the output FASTA file
-lib_id <- "Lib2018i"
+lib_id <- "Lib2022"
 
 # Load the data
 asv_tab <- readRDS(path_asvtab)
@@ -85,7 +85,7 @@ read_count_tab <- tibble(
 summary_tab_flt <- summary_tab %>% 
   select(-pct_remain) %>% 
   left_join(read_count_tab) %>% 
-  mutate(gmmdenoise = replace_na(gmmdenoise, 0)) %>% 
+  mutate(gmmdenoise = replace_na(gmmdenoise, 0)) %>%
   mutate(pct_remain = percent(gmmdenoise / initial, accuracy = 0.1))
 summary_tab_flt %>% 
   print(n = summary_tab_flt %>% nrow())
