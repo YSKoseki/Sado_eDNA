@@ -6,7 +6,7 @@
 # Packages required
 library(dada2); packageVersion("dada2") # 1.34.0
 library(svglite); packageVersion("svglite") # 2.1.3
-library(scales); packageVersion("scales") # 1.3.0
+library(scales); packageVersion("scales") # 1.4.0
 library(tidyverse); packageVersion("tidyverse") # 2.0.0
 
 # Directory/File Paths for:
@@ -14,7 +14,7 @@ library(tidyverse); packageVersion("tidyverse") # 2.0.0
 path_cutadapt1 <- "01_Cutadapt_Lib2022/FASTQ_trim"
 ## Primer trimming stats
 path_cutadapt2 <- "01_Cutadapt_Lib2022/summary.tsv"
-## Output files
+## Output directory
 path_out <- "02_DADA2_Lib2022"
 
 # Library ID used as part of the sequence identifiers in the output FASTA file
@@ -209,24 +209,12 @@ summary_tab %>%
   print(n = summary_sub %>% nrow())
 write_tsv(summary_tab, file = paste0(path_out, "/DADA2_sum.tsv"))
 
-# Save data and results
-## Save ASV sequences as a FASTA file
-asv_seqs <- colnames(asv_tab)
-n_asvs <- length(asv_seqs)
-asv_seqs_fa <- paste0(">", lib_id, "_%04d") %>% 
-  sprintf(1:n_asvs) %>% 
-  rbind(asv_seqs) %>% 
-  c() %>% 
-  as.matrix(ncol = 1)
-asv_seqs_fa %>% 
-  as.data.frame() %>% 
-  write_tsv(file = paste0(path_out, "/ASV.fa"), col_names = FALSE)
+# Outputs
 ## R objects
 path_rds <- paste0(path_out, "/05_saved_rds")
 dir.create(path_rds, recursive = TRUE)
 saveRDS(asv_tab, paste0(path_rds, "/ASV_tab.rds"))
 saveRDS(summary_tab, paste0(path_rds, "/summary_tab.rds"))
-saveRDS(asv_seqs_fa, paste0(path_rds, "/ASV_fa.rds"))
 ## Workspace
 paste0(path_out, "/saved.Rdata") %>% save.image()
 ## Session info
