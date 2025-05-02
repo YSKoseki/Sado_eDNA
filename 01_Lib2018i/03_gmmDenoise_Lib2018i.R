@@ -15,8 +15,6 @@ library(tidyverse); packageVersion("tidyverse") # 2.0.0
 path_asvtab <- "02_DADA2_Lib2018i/05_saved_rds/ASV_tab.rds"
 ## Summary table of the Cutadapt-DADA2 processing
 path_sumtab <- "02_DADA2_Lib2018i/05_saved_rds/summary_tab.rds"
-## ASV sequence data 
-path_asvfa <- "02_DADA2_Lib2018i/05_saved_rds/ASV_fa.rds"
 ## Output directory
 path_out <- "03_gmmDenoise_Lib2018i"
 
@@ -26,7 +24,6 @@ lib_id <- "Lib2018i"
 # Load the data
 asv_tab <- readRDS(path_asvtab)
 summary_tab <- readRDS(path_sumtab)
-asv_seqs_fa <- readRDS(path_asvfa)
 
 # Create ASV read count vector
 read_count <- asv_tab %>% colSums()
@@ -91,24 +88,9 @@ summary_tab_flt %>%
   print(n = summary_tab_flt %>% nrow())
 write_tsv(summary_tab_flt, file = paste0(path_out, "/gmmDenoise_sum.tsv"))
 
-# Save data and results
-## Save ASV sequences as a FASTA file
-asv_flt <- colnames(asv_tab_flt)
-n_asvs_flt <- length(asv_flt)
-asv_flt_fa <- paste0(">", lib_id, "_%04d") %>% 
-  sprintf(1:n_asvs_flt) %>% 
-  rbind(asv_flt) %>% 
-  c() %>% 
-  as.matrix(ncol = 1)
-asv_flt_fa %>% 
-  as.data.frame() %>% 
-  write_tsv(file = paste0(path_out, "/ASV_gmm.fa"), col_names = FALSE)
+# Outputs
 ## R objects
-path_rds <- paste0(path_out, "/saved_rds")
-dir.create(path_rds, recursive = TRUE)
-saveRDS(asv_tab_flt, paste0(path_rds, "/ASV_tab_gmm.rds"))
-saveRDS(summary_tab_flt, paste0(path_rds, "/summary_tab_gmm.rds"))
-saveRDS(asv_flt_fa, paste0(path_rds, "/ASV_fa_gmm.rds"))
+saveRDS(asv_tab_flt, paste0(path_out, "/ASV_tab_gmm.rds"))
 ## Workspace
 paste0(path_out, "/saved.Rdata") %>% save.image()
 ## Session info
