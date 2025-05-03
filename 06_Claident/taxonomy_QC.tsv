@@ -1,0 +1,107 @@
+query	superkingdom	kingdom	phylum	subphylum	superclass	class	subclass	infraclass	cohort	subcohort	superorder	order	suborder	infraorder	superfamily	family	subfamily	tribe	genus	species	subspecies
+ASV001	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius	Gymnogobius petschiliensis	
+ASV002	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV003	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV004	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes				Salmonidae	Salmoninae				
+ASV005	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+ASV006	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius		
+ASV007	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius	Rhinogobius brunneus	
+ASV008	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus		
+ASV009	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes				Salmonidae	Salmoninae		Oncorhynchus	Oncorhynchus masou	
+ASV010	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Leuciscidae	Pseudaspininae		Tribolodon	Tribolodon hakonensis	
+ASV011	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV012	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes				Carangidae			Trachurus		
+ASV013	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Tridentiger		
+ASV014	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales		Cottidae					
+ASV015	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Xenocyprididae	Opsariichthyinae		Zacco	Zacco platypus	
+ASV016	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes				Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+ASV017	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Mugiliformes				Mugilidae			Planiliza		
+ASV018	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Acanthogobius	Acanthogobius flavimanus	
+ASV019	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius		
+ASV020	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales		Cottidae			Cottus	Cottus kazika	
+ASV021	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV022	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius		
+ASV023	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales		Cottidae					
+ASV024	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Cyprinidae	Cyprininae		Cyprinus		
+ASV025	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Luciogobius		
+ASV026	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Luciogobius		
+ASV027	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Tetraodontiformes	Tetraodontoidei		Tetradontoidea	Tetraodontidae			Takifugu		
+ASV028	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV029	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales		Cottidae					
+ASV030	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius	Gymnogobius urotaenia	
+ASV031	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Gobionidae	Sarcocheilichthyinae		Gnathopogon	Gnathopogon elongatus	Gnathopogon elongatus elongatus
+ASV032	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes				Carangidae			Seriola	Seriola dumerili	
+ASV033	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Cyprinidae	Cyprininae				
+ASV034	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+ASV035	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV036	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV037	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Tetraodontiformes	Tetraodontoidei		Tetradontoidea	Tetraodontidae			Takifugu	Takifugu alboplumbeus	
+ASV038	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Cyprinidae	Cyprininae		Carassius		
+ASV039	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Cyprinidae	Cyprininae		Cyprinus		
+ASV040	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV041	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Spariformes				Sparidae			Acanthopagrus		
+ASV042	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV043	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales		Cottidae			Cottus	Cottus kazika	
+ASV044	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV045	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes				Carangidae			Seriola	Seriola quinqueradiata	
+ASV046	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Salmoniformes				Salmonidae	Salmoninae		Oncorhynchus	Oncorhynchus masou	
+ASV047	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Gobionidae			Hemibarbus		
+ASV048	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+ASV049	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+ASV050	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV051	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Acheilognathidae					
+ASV052	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Luciogobius		
+ASV053	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV054	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Mugiliformes				Mugilidae			Mugil	Mugil cephalus	
+ASV055	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Cyprinidae	Cyprininae		Carassius		
+ASV056	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV057	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Serranoidei			Serranidae	Epinephelinae	Epinephelini	Epinephelus		
+ASV058	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius	Gymnogobius breunigii	
+ASV059	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV060	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV061	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Gobionidae			Hemibarbus		
+ASV062	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Leucopsarion	Leucopsarion petersii	
+ASV063	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+ASV064	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV065	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius		
+ASV066	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius		
+ASV067	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV068	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes				Carangidae			Seriola	Seriola quinqueradiata	
+ASV069																					
+ASV070	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV071	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV072	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Cyprinidae	Cyprininae		Carassius		
+ASV073	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus		
+ASV074	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Serranoidei			Serranidae	Epinephelinae	Epinephelini	Epinephelus		
+ASV075	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Leuciscidae	Pseudaspininae		Tribolodon	Tribolodon hakonensis	
+ASV076	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Pempheriformes				Lateolabracidae			Lateolabrax	Lateolabrax japonicus	
+ASV077	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus		
+ASV078	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius	Rhinogobius brunneus	
+ASV079	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Characiphysae	Siluriformes	Siluroidei			Siluridae			Silurus		
+ASV080	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Gobionidae	Sarcocheilichthyinae		Gnathopogon		
+ASV081	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV082	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius		
+ASV083	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Cyprinidae	Cyprininae				
+ASV084	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV085	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Carangiformes				Carangidae			Trachurus		
+ASV086	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Pempheriformes				Lateolabracidae			Lateolabrax	Lateolabrax japonicus	
+ASV087	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV088	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Tetraodontiformes	Tetraodontoidei		Tetradontoidea	Tetraodontidae			Takifugu		
+ASV089	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus		
+ASV090	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Centrarchiformes			Centrarchoidei	Centrarchidae			Micropterus	Micropterus salmoides	
+ASV091	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Acanthogobius	Acanthogobius flavimanus	
+ASV092	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Xenocyprididae	Opsariichthyinae		Nipponocypris	Nipponocypris temminckii	
+ASV093	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV094	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Rhinogobius		
+ASV095	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Xenocyprididae	Opsariichthyinae		Zacco	Zacco platypus	
+ASV096	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Scorpaenoidei			Sebastidae	Sebastinae		Sebastes		
+ASV097	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Xenocyprididae	Opsariichthyinae		Nipponocypris	Nipponocypris temminckii	
+ASV098	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
+ASV099	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Cyprinidae	Cyprininae				
+ASV100	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Perciformes	Cottioidei	Cottales		Cottidae					
+ASV101	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Acheilognathidae					
+ASV102	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Gobionidae	Sarcocheilichthyinae		Gnathopogon	Gnathopogon elongatus	Gnathopogon elongatus elongatus
+ASV103	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Osmeriformes				Plecoglossidae			Plecoglossus	Plecoglossus altivelis	
+ASV104	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cyprinoidei			Acheilognathidae					
+ASV105	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Euteleosteomorpha			Gobiiformes	Gobioidei			Gobiidae	Gobionellinae		Gymnogobius		
+ASV106	Eukaryota	Metazoa	Chordata	Craniata	Actinopterygii	Actinopteri	Neopterygii	Teleostei	Otomorpha	Ostariophysi	Cypriniphysae	Cypriniformes	Cobitoidei			Cobitidae	Cobitinae		Misgurnus	Misgurnus anguillicaudatus	
