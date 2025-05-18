@@ -3,7 +3,6 @@
 # R 4.4.2
 
 # Packages required
-library(data.table); packageVersion("data.table") # 1.17.0
 library(Biostrings); packageVersion("Biostrings") # 2.74.1
 library(DECIPHER); packageVersion("DECIPHER") # 3.2.0
 library(phangorn); packageVersion("phangorn") # 2.12.1
@@ -24,7 +23,7 @@ path_out <- "07_Tree"
 
 # Load data
 ps <- path_in$ps %>% readRDS()
-cl <- path_in$cl %>% fread() %>% as_tibble()
+cl <- path_in$cl %>% read_tsv(na = "NA")
 
 # Create ASV names from Claident-assigned taxonomy
 tax_tbl <- cl %>% 
