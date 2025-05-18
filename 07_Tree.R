@@ -9,7 +9,6 @@ library(phangorn); packageVersion("phangorn") # 2.12.1
 library(parallel); packageVersion("parallel") # 4.4.2
 library(tidytree); packageVersion("tidytree") # 0.4.6
 library(ggtree); packageVersion("ggtree") # 3.14.0
-library(cowplot); packageVersion("cowplot") # 1.1.3
 library(tidyverse); packageVersion("tidyverse") # 2.0.0
 
 # Paths
