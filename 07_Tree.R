@@ -162,7 +162,7 @@ ggsave(
 
 # Plot subtrees for inspection
 ## Custom function to plot a subtree
-subtree <- function(subsetnode, collapsenode = NULL, levels_back = 0, xlim = c(0, 1), linesize = .1, textsize = 1, scalewidth = .01, title = "", titlesuffix = "clade", titlesize = 3.5, width = 4, height = 3) {
+subtree <- function(subsetnode, collapsenode = NULL, levels_back = 0, xlim = c(0, 1), linesize = .1, textsize = 1, scalewidth = .01, title = "", titlesuffix = "group", titlesize = 3.5, width = 4, height = 3) {
   p <- treeGTRbs_tre2 %>% 
     tidytree::tree_subset(node = subsetnode, levels_back = levels_back) %>% 
     ggtree::ggtree(size = linesize) +
@@ -179,10 +179,10 @@ subtree <- function(subsetnode, collapsenode = NULL, levels_back = 0, xlim = c(0
       linesize = linesize, 
       fontsize = textsize
     ) +
-    labs(title = paste0("The ", title, titlesuffix)) +
+    labs(title = paste0("The ", title, " ", titlesuffix)) +
     theme(text = element_text(size = titlesize))
   if (is.null(collapsenode)) {
-    p
+    p2 <- p
   } else {
     p2 <- p %>% 
       collapse(node = collapsenode) +
@@ -190,10 +190,9 @@ subtree <- function(subsetnode, collapsenode = NULL, levels_back = 0, xlim = c(0
         aes(subset = (node == collapsenode)), 
         shape = 18, size = .3, fill = "black"
       )
-    p2
   }
   ggsave(
-    paste0(path_out, paste0("/", title, ".svg")), 
+    paste0(path_out, paste0("/", title, ".svg")),
     device = "svg", bg = "white",
     width = width, height = height, units = "cm"
   )
@@ -205,7 +204,7 @@ subtree(subsetnode = 195, xlim = c(0, .22), title = "Gymnogobius-Luciogobius")
 subtree(
   subsetnode = 106, collapsenode = 129,
   xlim = c(0, .077), textsize = 0.7,
-  title = "Rhinogobius", titlesuffix = " branches"
+  title = "Rhinogobius"
 )
 
 # Outputs
