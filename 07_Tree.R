@@ -14,7 +14,7 @@ library(tidyverse); packageVersion("tidyverse") # 2.0.0
 # Paths
 # Input data
 path_in <- list(
-  ps = "./05_Mergelib/glob_ps.rds",
+  ps = "./05_Mergeruns/glob_ps.rds",
   cl = "./06_Claident/taxonomy_merger.tsv"
 )
 ## Output directory
@@ -50,8 +50,10 @@ tax_tbl <- cl %>%
   mutate(sp_assign = if_else(species == "", "no", "yes")) %>% 
   mutate(seq = refseq(ps) %>% as.character())
 
-# Construct phylogenetic trees
-#  See `vignette("Trees", package = "phangorn")`
+# Construct phylogenetic trees 
+# See `vignette("Trees", package = "phangorn")`
+## Set a random seed for reproducibility
+set.seed(123)
 ## Align sequences
 alignment <- refseq(ps) %>% 
   DECIPHER::AlignSeqs(anchor = NA, processors = NULL, verbose = FALSE) 
@@ -61,9 +63,9 @@ align_pha <- alignment %>% as.matrix() %>% phangorn::phyDat(type = "DNA")
 align_dis <- align_pha %>% phangorn::dist.ml()
 ## Build a tree using the neighbor-joining method
 tree_NJ <- align_dis %>% phangorn::NJ()
-## Build a tree using the maximum likelihood method with the GTR+I+G model (the 
-##  General Time Reversible model with corrections for invariant sites and 
-##  gamma-distributed rate variation)
+## Build a tree using the maximum likelihood method with the GTR+I+G model 
+## (the General Time Reversible model with corrections for invariant sites and 
+## gamma-distributed rate variation)
 tree_GTR <- tree_NJ %>% 
   phangorn::pml(data = align_pha) %>% 
   update(k = 4, inv = 0.2) %>%
@@ -75,7 +77,6 @@ tree_GTR <- tree_NJ %>%
     control = phangorn::pml.control(trace = 0)
   )
 ## Compute bootstrap support values for the ML tree
-set.seed(123)
 bs <- tree_GTR %>% 
   phangorn::bootstrap.pml(
     bs = 1000, 
@@ -91,7 +92,7 @@ tree_GTRbs <- tree_GTR
 tree_GTRbs$tree <- tree_GTR$tree %>% phangorn::plotBS(bs)
 
 # Add detailed annotation data to the ML tree
-#  Reference: https://yulab-smu.top/treedata-book/index.html
+# Reference: https://yulab-smu.top/treedata-book/index.html
 ## Merge taxonomic information into the above tree data
 treeGTRbs_tbl <- tree_GTRbs$tree %>% 
   as_tibble() %>% 
@@ -195,13 +196,13 @@ subtree <- function(subsetnode, collapsenode = NULL, levels_back = 0, xlim = c(0
     width = width, height = height, units = "cm"
   )
 }
-subtree(subsetnode = 151, xlim = c(0, .25), title = "Misgurnus")
-subtree(subsetnode = 162, xlim = c(0, .03), title = "Carassius-Cyprinus")
-subtree(subsetnode = 189, xlim = c(0, .15), title = "Cottus")
-subtree(subsetnode = 195, xlim = c(0, .22), title = "Gymnogobius-Luciogobius")
+subtree(subsetnode = 172, xlim = c(0, .26), title = "Misgurnus")
+subtree(subsetnode = 152, xlim = c(0, .03), title = "Carassius–Cyprinus")
+subtree(subsetnode = 135, xlim = c(0, .15), title = "Cottus")
+subtree(subsetnode = 196, xlim = c(0, .22), title = "Gymnogobius–Luciogobius")
 subtree(
-  subsetnode = 106, collapsenode = 129,
-  xlim = c(0, .077), textsize = 0.7,
+  subsetnode = 106, collapsenode = 130,
+  xlim = c(0, .07), textsize = 0.7,
   title = "Rhinogobius"
 )
 
