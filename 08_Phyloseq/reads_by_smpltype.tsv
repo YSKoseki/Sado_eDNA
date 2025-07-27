@@ -1,0 +1,5 @@
+Type	N_samples	Mean_reads	Min_reads	Max_reads	Total_reads
+SMPL	261	102667.6	0	519232	26796250
+UND	3	346565.7	30450	779772	1039697
+FNC	16	   251.2	0	3435	4019
+LNC	17	     2.5	0	13	42
