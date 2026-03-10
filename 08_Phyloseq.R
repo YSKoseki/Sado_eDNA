@@ -181,8 +181,9 @@ reads_by_asv_in_smpl <- glb_ps %>%
   arrange(ASV)
 reads_by_asv_in_smpl %>% 
   mutate(
-    Rel_abund = format(Rel_abund, scientific = 999, digits = 1),
-    Percent_occur = format(Percent_occur, scientific = 999, digits = 1)
+    Percent_occur = format(Percent_occur, scientific = 999, digits = 2),
+    Mean_reads = format(Mean_reads, scientific = 999, digits = 2),
+    Rel_abund = format(Rel_abund, scientific = 999, digits = 2)
   ) %>% 
   write_tsv(paste0(path_out, "/reads_by_ASV_in_SMPL.tsv"))
 
@@ -207,7 +208,7 @@ fw_smpl_ps <- fw_ps %>%
 ## R objects
 saveRDS(fw_ps, paste0(path_out, "/fw_ps.rds"))
 saveRDS(fw_smpl_ps, paste0(path_out, "/fw_smpl_ps.rds"))
-saveRDS(max_reads_in_fnc, paste0(path_out, "/max_reads_in_fnc.rds")
+saveRDS(max_reads_in_fnc, paste0(path_out, "/max_reads_in_fnc.rds"))
 ## Workspace
 paste0(path_out, "/saved.Rdata") %>% save.image()
 ## Session info
