@@ -6,7 +6,7 @@
 
 # Packages required
 library(readxl); packageVersion("readxl") # 1.4.5
-library(phyloseq); packageVersion("phyloseq") # 1.50.0
+library(phyloseq); packageVersion("phyloseq") # 1.54.2
 library(speedyseq); packageVersion("speedyseq") # 0.5.3.9021
 library(tidyverse); packageVersion("tidyverse") # 2.0.0
 
@@ -88,21 +88,43 @@ reads_by_asv_in_fnc <- glb_ps %>%
     Type = unique(Type),
     Taxonomy = unique(Taxonomy),
     N_samples = n(),
+    N_occur = sum(Abundance > 0),
     Mean_reads = mean(Abundance),
-    Min_reads = min(Abundance),
+    min_reads = min(Abundance),
+    Min_detect_reads = ifelse(
+      any(Abundance > 0), min(Abundance[Abundance > 0]), NA
+    ),
     Max_reads = max(Abundance),
     Total_reads = sum(Abundance),
     .by = ASV
+  ) %>%
+  mutate(
+    Percent_occur = 100 * N_occur / N_samples,
+    Rel_abund = 100 * Total_reads / sum(Total_reads)
   ) %>% 
-  arrange(desc(Mean_reads), ASV) %>% 
   filter(Total_reads > 0) %>% 
-  select(Type, ASV, Taxonomy, everything())
+  select(
+    Type, ASV, Taxonomy, N_samples, N_occur, Percent_occur, 
+    Mean_reads, min_reads, Min_detect_reads, Max_reads, Total_reads, Rel_abund
+  ) %>% 
+  arrange(desc(Max_reads), ASV)
 reads_by_asv_in_fnc %>% 
-  mutate(Mean_reads = format(Mean_reads, scientific = 999, digits = 2)) %>% 
+  mutate(
+    Percent_occur = format(Percent_occur, scientific = 999, digits = 2),
+    Mean_reads = format(Mean_reads, scientific = 999, digits = 2),
+    Rel_abund = format(Rel_abund, scientific = 999, digits = 2)
+  ) %>% 
   write_tsv(paste0(path_out, "/reads_by_ASV_in_FNC.tsv"))
 
+# Use the maximum non-human read count as the ASV filtering cutoff
+max_reads_in_fnc <- reads_by_asv_in_fnc %>% 
+  filter(Taxonomy != "Homo sapiens") %>%
+  select(Max_reads) %>% 
+  pull() %>% 
+  max()
+
 # Update the summary of read counts by sample type, excluding the human ASV
-reads_by_smpltype2 <- glb_ps %>% 
+reads_by_smpltype_nh <- glb_ps %>% 
   speedyseq::psmelt(as = "tbl_df") %>% 
   filter(nam1 != "Homo sapiens") %>% 
   select(type, Sample, Abundance) %>% 
@@ -116,38 +138,45 @@ reads_by_smpltype2 <- glb_ps %>%
     N_samples = n(),
     Mean_reads = mean(Abundance),
     Min_reads = min(Abundance),
+    Min_detect_reads = ifelse(
+      any(Abundance > 0), min(Abundance[Abundance > 0]), NA
+    ),
     Max_reads = max(Abundance),
     Total_reads = sum(Abundance),
     .by = Type
   ) %>% 
   arrange(desc(Total_reads))
-reads_by_smpltype2 %>% 
+reads_by_smpltype_nh %>% 
   mutate(Mean_reads = format(Mean_reads, scientific = 999, digits = 2)) %>% 
-  write_tsv(paste0(path_out, "/reads_by_smpltype2.tsv"))
-
-# Subset the phyloseq object to field samples only
-smpl_ps <- glb_ps %>% 
-  phyloseq::subset_samples(type == "SMPL")
+  write_tsv(paste0(path_out, "/reads_by_smpltype_nh.tsv"))
 
 # Summary of read counts for each ASV in field samples
-reads_by_asv_in_smpl <- smpl_ps %>% 
+reads_by_asv_in_smpl <- glb_ps %>% 
+  phyloseq::subset_samples(type == "SMPL") %>% 
   speedyseq::psmelt(as = "tbl_df") %>% 
   select(OTU, Abundance, nam1) %>% 
   rename(ASV = OTU, Taxonomy = nam1) %>% 
-  mutate(Occurrence = if_else(Abundance > 0, 1L, 0L)) %>% 
+  #mutate(Occurrence = if_else(Abundance > 0, 1L, 0L)) %>% 
   summarize(
     Taxonomy = unique(Taxonomy),
     N_samples = n(),
-    N_occur = sum(Occurrence),
-    Abundance = sum(Abundance),
+    N_occur = sum(Abundance > 0),
+    Mean_reads = mean(Abundance),
+    Min_reads = min(Abundance),
+    Min_detect_reads = ifelse(
+      any(Abundance > 0), min(Abundance[Abundance > 0]), NA
+    ),
+    Max_reads = max(Abundance),
+    Total_reads = sum(Abundance),
     .by = ASV
   ) %>% 
   mutate(
-    Rel_abund = 100 * Abundance / sum(Abundance),
-    Percent_occur = 100 * N_occur / N_samples
+    Percent_occur = 100 * N_occur / N_samples,
+    Rel_abund = 100 * Total_reads / sum(Total_reads)
   ) %>% 
   select(
-    ASV, Taxonomy, N_samples, N_occur, Percent_occur, Abundance, Rel_abund
+    ASV, Taxonomy, N_samples, N_occur, Percent_occur, 
+    Mean_reads, Min_reads, Min_detect_reads, Max_reads, Total_reads, Rel_abund
   ) %>% 
   arrange(ASV)
 reads_by_asv_in_smpl %>% 
@@ -178,6 +207,7 @@ fw_smpl_ps <- fw_ps %>%
 ## R objects
 saveRDS(fw_ps, paste0(path_out, "/fw_ps.rds"))
 saveRDS(fw_smpl_ps, paste0(path_out, "/fw_smpl_ps.rds"))
+saveRDS(max_reads_in_fnc, paste0(path_out, "/max_reads_in_fnc.rds")
 ## Workspace
 paste0(path_out, "/saved.Rdata") %>% save.image()
 ## Session info

@@ -1,107 +1,107 @@
-ASV	Taxonomy	N_samples	N_occur	Percent_occur	Abundance	Rel_abund
-ASV001	Gymnogobius petschiliensis	261	201	77.0	8501712	31.727
-ASV002	Rhinogobius sp.	261	211	80.8	4385811	16.367
-ASV003	Rhinogobius sp.	261	141	54.0	3447432	12.865
-ASV004	Salvelinus leucomaenis	261	101	38.7	1908511	 7.122
-ASV005	Misgurnus anguillicaudatus	261	114	43.7	1440374	 5.375
-ASV006	Gymnogobius opperiens	261	121	46.4	912548	 3.406
-ASV007	Rhinogobius brunneus	261	93	35.6	717219	 2.677
-ASV008	Misgurnus sp.	261	46	17.6	632364	 2.360
-ASV009	Oncorhynchus masou	261	71	27.2	512213	 1.912
-ASV010	Tribolodon hakonensis	261	63	24.1	466901	 1.742
-ASV011	Rhinogobius fluviatilis	261	137	52.5	343138	 1.281
-ASV012	Trachurus japonicus	261	22	 8.4	349856	 1.306
-ASV013	Tridentiger sp.	261	44	16.9	226474	 0.845
-ASV014	Cottidae sp.	261	29	11.1	227421	 0.849
-ASV015	Zacco platypus	261	32	12.3	181523	 0.677
-ASV016	Plecoglossus altivelis	261	135	51.7	176596	 0.659
-ASV017	Planiliza haematocheilus	261	17	 6.5	170734	 0.637
-ASV018	Acanthogobius flavimanus	261	23	 8.8	144495	 0.539
-ASV019	Gymnogobius sp.	261	86	33.0	141380	 0.528
-ASV020	Cottus kazika	261	54	20.7	133964	 0.500
-ASV021	Rhinogobius fluviatilis	261	105	40.2	129625	 0.484
-ASV022	Gymnogobius petschiliensis	261	35	13.4	116646	 0.435
-ASV023	Cottus pollux	261	19	 7.3	99287	 0.371
-ASV024	Cyprinus sp.	261	37	14.2	98041	 0.366
-ASV025	Luciogobius sp.	261	78	29.9	95346	 0.356
-ASV026	Luciogobius guttatus	261	57	21.8	90028	 0.336
-ASV027	Takifugu alboplumbeus	261	12	 4.6	74554	 0.278
-ASV028	Rhinogobius sp.	261	72	27.6	71739	 0.268
-ASV029	Cottus pollux	261	8	 3.1	58759	 0.219
-ASV030	Gymnogobius urotaenia	261	59	22.6	53064	 0.198
-ASV031	Gnathopogon elongatus	261	18	 6.9	47535	 0.177
-ASV032	Seriola dumerili	261	2	 0.8	49988	 0.187
-ASV033	Carassius sp.	261	35	13.4	43869	 0.164
-ASV034	Misgurnus anguillicaudatus	261	40	15.3	43244	 0.161
-ASV035	Rhinogobius sp.	261	31	11.9	42587	 0.159
-ASV036	Rhinogobius sp.	261	33	12.6	38701	 0.144
-ASV037	Takifugu alboplumbeus	261	5	 1.9	38355	 0.143
-ASV038	Carassius sp.	261	5	 1.9	36410	 0.136
-ASV039	Cyprinus carpio	261	21	 8.0	30905	 0.115
-ASV040	Rhinogobius sp.	261	13	 5.0	24261	 0.091
-ASV041	Acanthopagrus sp.	261	6	 2.3	21266	 0.079
-ASV042	Rhinogobius sp.	261	4	 1.5	20685	 0.077
-ASV043	Cottus kazika	261	33	12.6	22010	 0.082
-ASV044	Rhinogobius sp.	261	14	 5.4	22430	 0.084
-ASV045	Seriola quinqueradiata	261	1	 0.4	20026	 0.075
-ASV046	Oncorhynchus masou	261	9	 3.4	19786	 0.074
-ASV047	Hemibarbus barbus	261	15	 5.7	18428	 0.069
-ASV048	Misgurnus anguillicaudatus	261	1	 0.4	17904	 0.067
-ASV049	Misgurnus anguillicaudatus	261	9	 3.4	18382	 0.069
-ASV050	Rhinogobius sp.	261	20	 7.7	16384	 0.061
-ASV051	Acheilognathidae sp.	261	6	 2.3	13420	 0.050
-ASV052	Luciogobius guttatus	261	27	10.3	13466	 0.050
-ASV053	Rhinogobius sp.	261	10	 3.8	13456	 0.050
-ASV054	Mugil cephalus	261	11	 4.2	13518	 0.050
-ASV055	Carassius sp.	261	9	 3.4	11650	 0.043
-ASV056	Rhinogobius brunneus	261	10	 3.8	10730	 0.040
-ASV057	Epinephelus akaara	261	1	 0.4	10030	 0.037
-ASV058	Gymnogobius breunigii	261	3	 1.1	8615	 0.032
-ASV059	Rhinogobius sp.	261	4	 1.5	8980	 0.034
-ASV060	Rhinogobius sp.	261	2	 0.8	8695	 0.032
-ASV061	Hemibarbus barbus	261	10	 3.8	8258	 0.031
-ASV062	Leucopsarion petersii	261	2	 0.8	8765	 0.033
-ASV063	Misgurnus anguillicaudatus	261	17	 6.5	6239	 0.023
-ASV064	Rhinogobius brunneus	261	1	 0.4	8492	 0.032
-ASV065	Gymnogobius sp.	261	2	 0.8	8053	 0.030
-ASV066	Gymnogobius sp.	261	7	 2.7	7094	 0.026
-ASV067	Rhinogobius sp.	261	11	 4.2	7262	 0.027
-ASV068	Seriola quinqueradiata	261	2	 0.8	7193	 0.027
-ASV069	Homo sapiens	261	8	 3.1	3200	 0.012
-ASV070	Rhinogobius sp.	261	4	 1.5	6892	 0.026
-ASV071	Rhinogobius sp.	261	2	 0.8	6608	 0.025
-ASV072	Carassius cuvieri	261	4	 1.5	5424	 0.020
-ASV073	Misgurnus sp.	261	6	 2.3	6049	 0.023
-ASV074	Epinephelus akaara	261	1	 0.4	5661	 0.021
-ASV075	Tribolodon hakonensis	261	3	 1.1	5578	 0.021
-ASV076	Lateolabrax japonicus	261	5	 1.9	5451	 0.020
-ASV077	Misgurnus sp.	261	2	 0.8	4284	 0.016
-ASV078	Rhinogobius brunneus	261	2	 0.8	4944	 0.018
-ASV079	Silurus asotus	261	16	 6.1	4284	 0.016
-ASV080	Gnathopogon elongatus	261	7	 2.7	3692	 0.014
-ASV081	Rhinogobius brunneus	261	1	 0.4	4675	 0.017
-ASV082	Gymnogobius petschiliensis	261	2	 0.8	4393	 0.016
-ASV083	Cyprinus sp.	261	9	 3.4	2968	 0.011
-ASV084	Rhinogobius sp.	261	3	 1.1	3643	 0.014
-ASV085	Trachurus japonicus	261	2	 0.8	3029	 0.011
-ASV086	Lateolabrax japonicus	261	2	 0.8	2931	 0.011
-ASV087	Rhinogobius sp.	261	3	 1.1	2843	 0.011
-ASV088	Takifugu sp.	261	2	 0.8	2804	 0.010
-ASV089	Misgurnus sp.	261	4	 1.5	2530	 0.009
-ASV090	Micropterus salmoides	261	3	 1.1	2470	 0.009
-ASV091	Acanthogobius flavimanus	261	3	 1.1	2321	 0.009
-ASV092	Nipponocypris temminckii	261	1	 0.4	2417	 0.009
-ASV093	Rhinogobius sp.	261	8	 3.1	2524	 0.009
-ASV094	Rhinogobius sp.	261	1	 0.4	2444	 0.009
-ASV095	Zacco platypus	261	1	 0.4	2423	 0.009
-ASV096	Sebastes sp.	261	1	 0.4	2009	 0.007
-ASV097	Nipponocypris temminckii	261	1	 0.4	1814	 0.007
-ASV098	Misgurnus anguillicaudatus	261	1	 0.4	1960	 0.007
-ASV099	Carassius sp.	261	3	 1.1	1688	 0.006
-ASV100	Cottus pollux	261	1	 0.4	1728	 0.006
-ASV101	Rhodeus ocellatus	261	1	 0.4	1473	 0.005
-ASV102	Gnathopogon elongatus	261	2	 0.8	1320	 0.005
-ASV103	Plecoglossus altivelis	261	4	 1.5	832	 0.003
-ASV104	Acheilognathidae sp.	261	1	 0.4	740	 0.003
-ASV105	Gymnogobius opperiens	261	1	 0.4	712	 0.003
-ASV106	Misgurnus anguillicaudatus	261	1	 0.4	665	 0.002
+ASV	Taxonomy	N_samples	N_occur	Percent_occur	Mean_reads	Min_reads	Min_detect_reads	Max_reads	Total_reads	Rel_abund
+ASV001	Gymnogobius petschiliensis	261	201	77.01	32573.6	0	2	339865	8501712	31.7272
+ASV002	Rhinogobius sp.	261	211	80.84	16803.9	0	9	125233	4385811	16.3673
+ASV003	Rhinogobius sp.	261	141	54.02	13208.6	0	13	166215	3447432	12.8654
+ASV004	Salvelinus leucomaenis	261	101	38.70	 7312.3	0	2	202842	1908511	 7.1223
+ASV005	Misgurnus anguillicaudatus	261	114	43.68	 5518.7	0	2	137007	1440374	 5.3753
+ASV006	Gymnogobius opperiens	261	121	46.36	 3496.4	0	3	77366	912548	 3.4055
+ASV007	Rhinogobius brunneus	261	93	35.63	 2748.0	0	27	69059	717219	 2.6766
+ASV008	Misgurnus sp.	261	46	17.62	 2422.9	0	7	487102	632364	 2.3599
+ASV009	Oncorhynchus masou	261	71	27.20	 1962.5	0	3	68848	512213	 1.9115
+ASV010	Tribolodon hakonensis	261	63	24.14	 1788.9	0	7	51214	466901	 1.7424
+ASV011	Rhinogobius fluviatilis	261	137	52.49	 1314.7	0	3	40688	343138	 1.2805
+ASV012	Trachurus japonicus	261	22	 8.43	 1340.4	0	2	148137	349856	 1.3056
+ASV013	Tridentiger sp.	261	44	16.86	  867.7	0	4	51448	226474	 0.8452
+ASV014	Cottidae sp.	261	29	11.11	  871.3	0	9	40737	227421	 0.8487
+ASV015	Zacco platypus	261	32	12.26	  695.5	0	46	47344	181523	 0.6774
+ASV016	Plecoglossus altivelis	261	135	51.72	  676.6	0	2	13040	176596	 0.6590
+ASV017	Planiliza haematocheilus	261	17	 6.51	  654.2	0	2	108451	170734	 0.6372
+ASV018	Acanthogobius flavimanus	261	23	 8.81	  553.6	0	4	60014	144495	 0.5392
+ASV019	Gymnogobius sp.	261	86	32.95	  541.7	0	7	17836	141380	 0.5276
+ASV020	Cottus kazika	261	54	20.69	  513.3	0	2	57021	133964	 0.4999
+ASV021	Rhinogobius fluviatilis	261	105	40.23	  496.6	0	4	8375	129625	 0.4837
+ASV022	Gymnogobius petschiliensis	261	35	13.41	  446.9	0	68	59944	116646	 0.4353
+ASV023	Cottus pollux	261	19	 7.28	  380.4	0	39	41103	99287	 0.3705
+ASV024	Cyprinus sp.	261	37	14.18	  375.6	0	28	18654	98041	 0.3659
+ASV025	Luciogobius sp.	261	78	29.89	  365.3	0	10	22740	95346	 0.3558
+ASV026	Luciogobius guttatus	261	57	21.84	  344.9	0	7	25763	90028	 0.3360
+ASV027	Takifugu alboplumbeus	261	12	 4.60	  285.6	0	108	24934	74554	 0.2782
+ASV028	Rhinogobius sp.	261	72	27.59	  274.9	0	15	6680	71739	 0.2677
+ASV029	Cottus pollux	261	8	 3.07	  225.1	0	222	26037	58759	 0.2193
+ASV030	Gymnogobius urotaenia	261	59	22.61	  203.3	0	11	6779	53064	 0.1980
+ASV031	Gnathopogon elongatus	261	18	 6.90	  182.1	0	68	17019	47535	 0.1774
+ASV032	Seriola dumerili	261	2	 0.77	  191.5	0	1585	48403	49988	 0.1865
+ASV033	Carassius sp.	261	35	13.41	  168.1	0	37	11998	43869	 0.1637
+ASV034	Misgurnus anguillicaudatus	261	40	15.33	  165.7	0	3	8404	43244	 0.1614
+ASV035	Rhinogobius sp.	261	31	11.88	  163.2	0	75	7857	42587	 0.1589
+ASV036	Rhinogobius sp.	261	33	12.64	  148.3	0	41	2956	38701	 0.1444
+ASV037	Takifugu alboplumbeus	261	5	 1.92	  147.0	0	62	33301	38355	 0.1431
+ASV038	Carassius sp.	261	5	 1.92	  139.5	0	40	32358	36410	 0.1359
+ASV039	Cyprinus carpio	261	21	 8.05	  118.4	0	77	6082	30905	 0.1153
+ASV040	Rhinogobius sp.	261	13	 4.98	   93.0	0	183	6268	24261	 0.0905
+ASV041	Acanthopagrus sp.	261	6	 2.30	   81.5	0	16	14074	21266	 0.0794
+ASV042	Rhinogobius sp.	261	4	 1.53	   79.3	0	771	12382	20685	 0.0772
+ASV043	Cottus kazika	261	33	12.64	   84.3	0	57	5316	22010	 0.0821
+ASV044	Rhinogobius sp.	261	14	 5.36	   85.9	0	160	10226	22430	 0.0837
+ASV045	Seriola quinqueradiata	261	1	 0.38	   76.7	0	20026	20026	20026	 0.0747
+ASV046	Oncorhynchus masou	261	9	 3.45	   75.8	0	287	6183	19786	 0.0738
+ASV047	Hemibarbus barbus	261	15	 5.75	   70.6	0	156	5161	18428	 0.0688
+ASV048	Misgurnus anguillicaudatus	261	1	 0.38	   68.6	0	17904	17904	17904	 0.0668
+ASV049	Misgurnus anguillicaudatus	261	9	 3.45	   70.4	0	81	6922	18382	 0.0686
+ASV050	Rhinogobius sp.	261	20	 7.66	   62.8	0	144	3700	16384	 0.0611
+ASV051	Acheilognathidae sp.	261	6	 2.30	   51.4	0	142	9655	13420	 0.0501
+ASV052	Luciogobius guttatus	261	27	10.34	   51.6	0	11	2641	13466	 0.0503
+ASV053	Rhinogobius sp.	261	10	 3.83	   51.6	0	216	4645	13456	 0.0502
+ASV054	Mugil cephalus	261	11	 4.21	   51.8	0	14	6086	13518	 0.0504
+ASV055	Carassius sp.	261	9	 3.45	   44.6	0	116	3622	11650	 0.0435
+ASV056	Rhinogobius brunneus	261	10	 3.83	   41.1	0	31	2104	10730	 0.0400
+ASV057	Epinephelus akaara	261	1	 0.38	   38.4	0	10030	10030	10030	 0.0374
+ASV058	Gymnogobius breunigii	261	3	 1.15	   33.0	0	1933	4248	8615	 0.0322
+ASV059	Rhinogobius sp.	261	4	 1.53	   34.4	0	77	6258	8980	 0.0335
+ASV060	Rhinogobius sp.	261	2	 0.77	   33.3	0	2024	6671	8695	 0.0324
+ASV061	Hemibarbus barbus	261	10	 3.83	   31.6	0	75	2720	8258	 0.0308
+ASV062	Leucopsarion petersii	261	2	 0.77	   33.6	0	2749	6016	8765	 0.0327
+ASV063	Misgurnus anguillicaudatus	261	17	 6.51	   23.9	0	71	1202	6239	 0.0233
+ASV064	Rhinogobius brunneus	261	1	 0.38	   32.5	0	8492	8492	8492	 0.0317
+ASV065	Gymnogobius sp.	261	2	 0.77	   30.9	0	2879	5174	8053	 0.0301
+ASV066	Gymnogobius sp.	261	7	 2.68	   27.2	0	333	1990	7094	 0.0265
+ASV067	Rhinogobius sp.	261	11	 4.21	   27.8	0	88	1458	7262	 0.0271
+ASV068	Seriola quinqueradiata	261	2	 0.77	   27.6	0	2685	4508	7193	 0.0268
+ASV069	Homo sapiens	261	8	 3.07	   12.3	0	2	1575	3200	 0.0119
+ASV070	Rhinogobius sp.	261	4	 1.53	   26.4	0	907	3382	6892	 0.0257
+ASV071	Rhinogobius sp.	261	2	 0.77	   25.3	0	1801	4807	6608	 0.0247
+ASV072	Carassius cuvieri	261	4	 1.53	   20.8	0	523	2036	5424	 0.0202
+ASV073	Misgurnus sp.	261	6	 2.30	   23.2	0	168	4254	6049	 0.0226
+ASV074	Epinephelus akaara	261	1	 0.38	   21.7	0	5661	5661	5661	 0.0211
+ASV075	Tribolodon hakonensis	261	3	 1.15	   21.4	0	228	3739	5578	 0.0208
+ASV076	Lateolabrax japonicus	261	5	 1.92	   20.9	0	285	1982	5451	 0.0203
+ASV077	Misgurnus sp.	261	2	 0.77	   16.4	0	212	4072	4284	 0.0160
+ASV078	Rhinogobius brunneus	261	2	 0.77	   18.9	0	2083	2861	4944	 0.0185
+ASV079	Silurus asotus	261	16	 6.13	   16.4	0	13	1448	4284	 0.0160
+ASV080	Gnathopogon elongatus	261	7	 2.68	   14.1	0	115	1714	3692	 0.0138
+ASV081	Rhinogobius brunneus	261	1	 0.38	   17.9	0	4675	4675	4675	 0.0174
+ASV082	Gymnogobius petschiliensis	261	2	 0.77	   16.8	0	2152	2241	4393	 0.0164
+ASV083	Cyprinus sp.	261	9	 3.45	   11.4	0	121	1065	2968	 0.0111
+ASV084	Rhinogobius sp.	261	3	 1.15	   14.0	0	601	2410	3643	 0.0136
+ASV085	Trachurus japonicus	261	2	 0.77	   11.6	0	1432	1597	3029	 0.0113
+ASV086	Lateolabrax japonicus	261	2	 0.77	   11.2	0	387	2544	2931	 0.0109
+ASV087	Rhinogobius sp.	261	3	 1.15	   10.9	0	86	2538	2843	 0.0106
+ASV088	Takifugu sp.	261	2	 0.77	   10.7	0	262	2542	2804	 0.0105
+ASV089	Misgurnus sp.	261	4	 1.53	    9.7	0	93	1968	2530	 0.0094
+ASV090	Micropterus salmoides	261	3	 1.15	    9.5	0	6	2245	2470	 0.0092
+ASV091	Acanthogobius flavimanus	261	3	 1.15	    8.9	0	185	1448	2321	 0.0087
+ASV092	Nipponocypris temminckii	261	1	 0.38	    9.3	0	2417	2417	2417	 0.0090
+ASV093	Rhinogobius sp.	261	8	 3.07	    9.7	0	93	534	2524	 0.0094
+ASV094	Rhinogobius sp.	261	1	 0.38	    9.4	0	2444	2444	2444	 0.0091
+ASV095	Zacco platypus	261	1	 0.38	    9.3	0	2423	2423	2423	 0.0090
+ASV096	Sebastes sp.	261	1	 0.38	    7.7	0	2009	2009	2009	 0.0075
+ASV097	Nipponocypris temminckii	261	1	 0.38	    7.0	0	1814	1814	1814	 0.0068
+ASV098	Misgurnus anguillicaudatus	261	1	 0.38	    7.5	0	1960	1960	1960	 0.0073
+ASV099	Carassius sp.	261	3	 1.15	    6.5	0	255	911	1688	 0.0063
+ASV100	Cottus pollux	261	1	 0.38	    6.6	0	1728	1728	1728	 0.0064
+ASV101	Rhodeus ocellatus	261	1	 0.38	    5.6	0	1473	1473	1473	 0.0055
+ASV102	Gnathopogon elongatus	261	2	 0.77	    5.1	0	114	1206	1320	 0.0049
+ASV103	Plecoglossus altivelis	261	4	 1.53	    3.2	0	127	329	832	 0.0031
+ASV104	Acheilognathidae sp.	261	1	 0.38	    2.8	0	740	740	740	 0.0028
+ASV105	Gymnogobius opperiens	261	1	 0.38	    2.7	0	712	712	712	 0.0027
+ASV106	Misgurnus anguillicaudatus	261	1	 0.38	    2.5	0	665	665	665	 0.0025

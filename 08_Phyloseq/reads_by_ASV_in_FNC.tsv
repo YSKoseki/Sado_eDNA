@@ -1,12 +1,12 @@
-Type	ASV	Taxonomy	N_samples	Mean_reads	Min_reads	Max_reads	Total_reads
-FNC	ASV069	Homo sapiens	16	230.69	0	3424	3691
-FNC	ASV001	Gymnogobius petschiliensis	16	 13.12	0	109	210
-FNC	ASV002	Rhinogobius sp.	16	  1.62	0	14	26
-FNC	ASV007	Rhinogobius brunneus	16	  1.12	0	12	18
-FNC	ASV004	Salvelinus leucomaenis	16	  1.06	0	12	17
-FNC	ASV010	Tribolodon hakonensis	16	  1.06	0	15	17
-FNC	ASV038	Carassius sp.	16	  0.81	0	13	13
-FNC	ASV005	Misgurnus anguillicaudatus	16	  0.69	0	8	11
-FNC	ASV003	Rhinogobius sp.	16	  0.44	0	7	7
-FNC	ASV014	Cottidae sp.	16	  0.38	0	4	6
-FNC	ASV034	Misgurnus anguillicaudatus	16	  0.19	0	3	3
+Type	ASV	Taxonomy	N_samples	N_occur	Percent_occur	Mean_reads	min_reads	Min_detect_reads	Max_reads	Total_reads	Rel_abund
+FNC	ASV069	Homo sapiens	16	2	12.5	230.69	0	267	3424	3691	91.839
+FNC	ASV001	Gymnogobius petschiliensis	16	8	50.0	 13.12	0	3	109	210	 5.225
+FNC	ASV010	Tribolodon hakonensis	16	2	12.5	  1.06	0	2	15	17	 0.423
+FNC	ASV002	Rhinogobius sp.	16	4	25.0	  1.62	0	3	14	26	 0.647
+FNC	ASV038	Carassius sp.	16	1	 6.2	  0.81	0	13	13	13	 0.323
+FNC	ASV004	Salvelinus leucomaenis	16	2	12.5	  1.06	0	5	12	17	 0.423
+FNC	ASV007	Rhinogobius brunneus	16	2	12.5	  1.12	0	6	12	18	 0.448
+FNC	ASV005	Misgurnus anguillicaudatus	16	2	12.5	  0.69	0	3	8	11	 0.274
+FNC	ASV003	Rhinogobius sp.	16	1	 6.2	  0.44	0	7	7	7	 0.174
+FNC	ASV014	Cottidae sp.	16	2	12.5	  0.38	0	2	4	6	 0.149
+FNC	ASV034	Misgurnus anguillicaudatus	16	1	 6.2	  0.19	0	3	3	3	 0.075
