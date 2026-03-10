@@ -2,7 +2,7 @@
 # R script to integrate ASV table, sequence data, taxonomy, phylogenetic tree,  
 # sample metadata into a phyloseq object. Also computes descriptive statistics 
 # of the data
-# R 4.4.2
+# R 4.5.2
 
 # Packages required
 library(readxl); packageVersion("readxl") # 1.4.5
