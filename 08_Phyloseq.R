@@ -2,11 +2,11 @@
 # R script to integrate ASV table, sequence data, taxonomy, phylogenetic tree,  
 # sample metadata into a phyloseq object. Also computes descriptive statistics 
 # of the data
-# R 4.5.2
+# R 4.6.0
 
 # Packages required
 library(readxl); packageVersion("readxl") # 1.4.5
-library(phyloseq); packageVersion("phyloseq") # 1.54.2
+library(phyloseq); packageVersion("phyloseq") # 1.56.0
 library(speedyseq); packageVersion("speedyseq") # 0.5.3.9021
 library(tidyverse); packageVersion("tidyverse") # 2.0.0
 
@@ -16,7 +16,8 @@ path_in <- list(
   ps = "./05_Mergeruns/glob_ps.rds",
   tax = "./07_Tree/tax_tbl.rds",
   tree = "./07_Tree/treeGTRbs_tre.rds",
-  smpl = "08_sampledata.xlsx"
+  smpl = "08_sampledata.xlsx",
+  exclude = "08_exclude_taxa.tsv"
 )
 ## Output directory
 path_out <- "08_Phyloseq"
@@ -26,6 +27,7 @@ ps <- path_in[["ps"]] %>% readRDS()
 tax <- path_in[["tax"]] %>% readRDS()
 tree <- path_in[["tree"]] %>% readRDS() %>% tidytree::as.phylo()
 smpl <- path_in[["smpl"]] %>% readxl::read_excel()
+exclude <- path_in[["exclude"]] %>% read_tsv()
 
 # Convert variable types in the `smpl` dataset
 smpl <- smpl %>% 
@@ -47,6 +49,13 @@ glb_ps <- phyloseq::merge_phyloseq(
   phyloseq::phy_tree(tree),
   speedyseq::sample_data(smpl)
 )
+
+# Human ASVs, identified by the genera listed as "human" in `exclude`
+human_asv <- glb_ps %>%
+  phyloseq::subset_taxa(
+    genus %in% exclude$genus[exclude$reason == "human"]
+  ) %>%
+  taxa_names()
 
 # Summary of read counts by sample type
 reads_by_smpltype <- glb_ps %>% 
@@ -118,7 +127,7 @@ reads_by_asv_in_fnc %>%
 
 # Use the maximum non-human read count as the ASV filtering cutoff
 max_reads_in_fnc <- reads_by_asv_in_fnc %>% 
-  filter(Taxonomy != "Homo sapiens") %>%
+  filter(!ASV %in% human_asv) %>%
   select(Max_reads) %>% 
   pull() %>% 
   max()
@@ -126,7 +135,7 @@ max_reads_in_fnc <- reads_by_asv_in_fnc %>%
 # Update the summary of read counts by sample type, excluding the human ASV
 reads_by_smpltype_nh <- glb_ps %>% 
   speedyseq::psmelt(as = "tbl_df") %>% 
-  filter(nam1 != "Homo sapiens") %>% 
+  filter(!OTU %in% human_asv) %>%
   select(type, Sample, Abundance) %>% 
   rename(Type = type) %>%
   summarize(
@@ -188,17 +197,18 @@ reads_by_asv_in_smpl %>%
   write_tsv(paste0(path_out, "/reads_by_ASV_in_SMPL.tsv"))
 
 # Create a phyloseq object for freshwater fish
-human <- c("ASV069")
-names(human) <- c("Homo sapiens")
-marine <- c("ASV032", "ASV045", "ASV057", "ASV068", "ASV074", "ASV096")
-names(marine) <- c(
-  "Seriola dumerili", "Seriola quinqueradiata", "Epinephelus akaara", 
-  "Seriola quinqueradiata", "Epinephelus akaara", "Sebastes sp."
-)
-fw_ps <- glb_ps %>% 
-  taxa_names() %>% 
-  `[`(!. %in% c(human, marine)) %>% 
-  phyloseq::prune_taxa(glb_ps)
+## Exclude human and marine taxa by genus, as listed in `exclude`
+fw_ps <- glb_ps %>%
+  phyloseq::subset_taxa(!genus %in% exclude$genus)
+## ASVs excluded
+excluded_asv <- glb_ps %>%
+  speedyseq::tax_table() %>%
+  as.data.frame() %>%
+  rownames_to_column("ASV") %>%
+  filter(!ASV %in% taxa_names(fw_ps)) %>%
+  select(ASV, genus, nam1) %>%
+  left_join(exclude, by = "genus")
+excluded_asv %>% write_tsv(paste0(path_out, "/excluded_ASV.tsv"))
 
 # Subset the phyloseq object to field samples only
 fw_smpl_ps <- fw_ps %>% 
