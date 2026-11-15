@@ -1,0 +1,8 @@
+Type	Year	ASV	Taxonomy	N_samples	N_occur	Percent_occur	Mean_reads	min_reads	Min_detect_reads	Max_reads	Total_reads	Rel_abund
+LNC	2018	ASV001	Gymnogobius petschiliensis	4	3	75	4.50	0	3	10	18	 52.9
+LNC	2018	ASV002	Rhinogobius sp.	4	2	50	2.75	0	5	6	11	 32.4
+LNC	2018	ASV003	Rhinogobius sp.	4	1	25	0.75	0	3	3	3	  8.8
+LNC	2018	ASV004	Salvelinus leucomaenis	4	1	25	0.50	0	2	2	2	  5.9
+LNC	2019	ASV004	Salvelinus leucomaenis	4	1	25	0.50	0	2	2	2	100.0
+LNC	2022	ASV002	Rhinogobius sp.	9	1	11	0.33	0	3	3	3	 50.0
+LNC	2022	ASV003	Rhinogobius sp.	9	1	11	0.33	0	3	3	3	 50.0
