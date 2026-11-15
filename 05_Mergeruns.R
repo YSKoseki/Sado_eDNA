@@ -11,10 +11,10 @@ library(tidyverse); packageVersion("tidyverse") # 2.0.0
 # Paths
 # Input data
 path_in <- list(
-  run2018i = "./01_run2018i/03_gmmDenoise_run2018i/ASV_tab_gmm.rds",
-  run2018ii = "./02_run2018ii/03_gmmDenoise_run2018ii/ASV_tab_gmm.rds",
-  run2019 = "./03_run2019/03_gmmDenoise_run2019/ASV_tab_gmm.rds",
-  run2022 = "./04_run2022/03_gmmDenoise_run2022/ASV_tab_gmm.rds"
+  run2018i = "./01_Run2018i/03_gmmDenoise_Run2018i/ASV_tab_gmm.rds",
+  run2018ii = "./02_Run2018ii/03_gmmDenoise_Run2018ii/ASV_tab_gmm.rds",
+  run2019 = "./03_Run2019/03_gmmDenoise_Run2019/ASV_tab_gmm.rds",
+  run2022 = "./04_Run2022/03_gmmDenoise_Run2022/ASV_tab_gmm.rds"
 )
 ## Output directory
 path_out <- "05_Mergeruns"
