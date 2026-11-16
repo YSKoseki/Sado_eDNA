@@ -4,8 +4,8 @@ Common sequence data processing for the eDNA metabarcoding study of freshwater f
 
 This repository covers the steps shared by all downstream analyses, from raw reads to phyloseq objects:
 
-- Primer removal (cutadapt), ASV inference (DADA2) and false-positive ASV removal (gmmDenoise) for each sequencing run
-- Merging of runs, taxonomic assignment (Claident) and phylogenetic tree construction
+- Primer removal (cutadapt, v5.0), ASV inference (DADA2, v1.34.0) and false-positive ASV removal (gmmDenoise, v0.3.1) for each sequencing run
+- Merging of runs, taxonomic assignment (Claident, v0.9.2025.04.13) and phylogenetic tree construction
 - Integration with sample metadata and removal of non-target ASVs (`08_Phyloseq/fw_smpl_ps.rds`)
 
 Downstream analyses are maintained in separate repositories that use the outputs of this repository.
