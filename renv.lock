@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.6.0",
+    "Version": "4.6.2",
     "Repositories": [
       {
         "Name": "BioCsoft",
@@ -92,7 +92,7 @@
     },
     "BiocGenerics": {
       "Package": "BiocGenerics",
-      "Version": "0.58.0",
+      "Version": "0.58.1",
       "Source": "Bioconductor",
       "Title": "S4 generic functions used in Bioconductor",
       "Description": "The package defines many S4 generic functions used in Bioconductor.",
@@ -138,11 +138,10 @@
         "RUnit"
       ],
       "Collate": "S3-classes-as-S4-classes.R utils.R normarg-utils.R replaceSlots.R aperm.R append.R as.data.frame.R as.list.R as.vector.R cbind.R do.call.R duplicated.R eval.R Extremes.R format.R funprog.R get.R grep.R is.unsorted.R lapply.R mapply.R match.R mean.R nrow.R order.R paste.R rank.R rep.R row_colnames.R saveRDS.R sort.R start.R subset.R t.R table.R tapply.R unique.R unlist.R unsplit.R which.R which.min.R relist.R boxplot.R image.R density.R IQR.R mad.R residuals.R var.R weights.R xtabs.R setops.R annotation.R combine.R containsOutOfMemoryData.R dbconn.R dge.R dims.R fileName.R longForm.R normalize.R Ontology.R organism_species.R paste2.R path.R plotMA.R plotPCA.R score.R strand.R toTable.R type.R updateObject.R testPackage.R zzz.R",
-      "git_url": "https://git.bioconductor.org/packages/BiocGenerics",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "09b3339",
-      "git_last_commit_date": "2026-04-28",
-      "Repository": "Bioconductor 3.23",
+      "Repository": "https://bioc-release.r-universe.dev",
+      "RemoteUrl": "https://github.com/bioc/BiocGenerics",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "995c7b312290a0776eb7c575b88d6c4d3f8d7524",
       "NeedsCompilation": "no",
       "Author": "The Bioconductor Dev Team [aut], Hervé Pagès [aut, cre] (ORCID: <https://orcid.org/0009-0002-8272-4522>), Laurent Gatto [ctb] (ORCID: <https://orcid.org/0000-0002-1520-2268>), Nathaniel Hayden [ctb], James Hester [ctb], Wolfgang Huber [ctb], Michael Lawrence [ctb], Martin Morgan [ctb] (ORCID: <https://orcid.org/0000-0002-5874-8148>), Valerie Obenchain [ctb]",
       "Maintainer": "Hervé Pagès <hpages.on.github@gmail.com>"
@@ -256,16 +255,17 @@
       "Encoding": "UTF-8",
       "RoxygenNote": "6.0.1",
       "Repository": "https://bioc.r-universe.dev",
-      "RemoteUrl": "https://github.com/bioc/BiocVersion",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "252d7c8f03a39a9b83f6de7e9dbf9a5ee6584365",
       "NeedsCompilation": "no",
       "Author": "Martin Morgan [aut], Marcel Ramos [ctb], Bioconductor Package Maintainer [ctb, cre]",
-      "Maintainer": "Bioconductor Package Maintainer <maintainer@bioconductor.org>"
+      "Maintainer": "Bioconductor Package Maintainer <maintainer@bioconductor.org>",
+      "RemoteType": "bioconductor",
+      "RemoteUrl": "https://github.com/bioc/BiocVersion",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "252d7c8f03a39a9b83f6de7e9dbf9a5ee6584365"
     },
     "Biostrings": {
       "Package": "Biostrings",
-      "Version": "2.80.0",
+      "Version": "2.80.2",
       "Source": "Bioconductor",
       "Title": "Efficient manipulation of biological strings",
       "Description": "Memory efficient string containers, string matching algorithms, and other utilities, for fast manipulation of large biological sequences or sets of sequences.",
@@ -285,7 +285,6 @@
       ],
       "Imports": [
         "methods",
-        "utils",
         "grDevices",
         "stats",
         "crayon"
@@ -296,6 +295,7 @@
         "XVector"
       ],
       "Suggests": [
+        "utils",
         "graphics",
         "pwalign",
         "BSgenome (>= 1.13.14)",
@@ -317,11 +317,11 @@
       ],
       "VignetteBuilder": "knitr",
       "Collate": "utils.R IUPAC_CODE_MAP.R AMINO_ACID_CODE.R GENETIC_CODE.R XStringCodec-class.R seqtype.R coloring.R XString-class.R XStringSet-class.R XStringSet-comparison.R XStringViews-class.R MaskedXString-class.R XStringSetList-class.R seqinfo-methods.R xscat.R XStringSet-io.R letter.R getSeq.R letterFrequency.R dinucleotideFrequencyTest.R chartr.R reverseComplement.R translate.R toComplex.R replaceAt.R replaceLetterAt.R injectHardMask.R padAndClip.R strsplit-methods.R misc.R MIndex-class.R lowlevel-matching.R match-utils.R matchPattern.R maskMotif.R matchLRPatterns.R trimLRPatterns.R matchProbePair.R matchPWM.R findPalindromes.R PDict-class.R matchPDict.R XStringQuality-class.R QualityScaledXStringSet.R lcsuffix.R MultipleAlignment.R longestConsecutive.R predefined_scoring_matrices.R zzz.R",
-      "git_url": "https://git.bioconductor.org/packages/Biostrings",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "8e49c26",
-      "git_last_commit_date": "2026-04-28",
+      "Config/pak/sysreqs": "zlib1g-dev",
       "Repository": "Bioconductor 3.23",
+      "RemoteUrl": "https://github.com/bioc/Biostrings",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "655464c29a43f22bd3e6e40cb4184fcd4ad0fb84",
       "NeedsCompilation": "yes",
       "Author": "Hervé Pagès [aut, cre], Patrick Aboyoun [aut], Robert Gentleman [aut], Saikat DebRoy [aut], Vince Carey [ctb], Nicolas Delhomme [ctb], Felix Ernst [ctb], Wolfgang Huber [ctb] ('matchprobes' vignette), Beryl Kanali [ctb] (Converted 'MultipleAlignments' vignette from Sweave to RMarkdown), Haleema Khan [ctb] (Converted 'matchprobes' vignette from Sweave to RMarkdown), Aidan Lakshman [ctb], Kieran O'Neill [ctb], Valerie Obenchain [ctb], Marcel Ramos [ctb], Albert Vill [ctb], Jen Wokaty [ctb] (Converted 'matchprobes' vignette from Sweave to RMarkdown), Erik Wright [ctb]",
       "Maintainer": "Hervé Pagès <hpages.on.github@gmail.com>"
@@ -380,11 +380,11 @@
     },
     "DECIPHER": {
       "Package": "DECIPHER",
-      "Version": "3.8.0",
+      "Version": "3.8.1",
       "Source": "Bioconductor",
       "Type": "Package",
       "Title": "Tools for curating, analyzing, and manipulating biological sequences",
-      "Date": "2026-04-27",
+      "Date": "2026-07-30",
       "Author": "Erik Wright",
       "Maintainer": "Erik Wright <Erik.Wright@bcm.edu>",
       "biocViews": "Clustering, Genetics, Sequencing, DataImport, Visualization, Microarray, QualityControl, qPCR, Alignment, WholeGenome, Microbiome, ImmunoOncology, GenePrediction, Phylogenetics, ComparativeGenomics",
@@ -413,16 +413,16 @@
       "License": "GPL-3",
       "ByteCompile": "true",
       "URL": "http://DECIPHER.codes",
-      "git_url": "https://git.bioconductor.org/packages/DECIPHER",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "7082754",
-      "git_last_commit_date": "2026-04-28",
+      "Config/pak/sysreqs": "zlib1g-dev",
       "Repository": "Bioconductor 3.23",
+      "RemoteUrl": "https://github.com/bioc/DECIPHER",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "d31d3ebf2fa00cdc96e07f14a7c99c9b284452ab",
       "NeedsCompilation": "yes"
     },
     "DelayedArray": {
       "Package": "DelayedArray",
-      "Version": "0.38.0",
+      "Version": "0.38.2",
       "Source": "Bioconductor",
       "Title": "A unified framework for working transparently with on-disk and in-memory array-like datasets",
       "Description": "Wrapping an array-like object (typically an on-disk object) in a DelayedArray object allows one to perform common array operations on it without loading the object in memory. In order to reduce memory usage and optimize performance, operations on the object are either delayed or executed using a block processing mechanism. Note that this also works on in-memory array-like objects like DataFrame objects (typically with Rle columns), Matrix objects, ordinary arrays and, data frames.",
@@ -451,6 +451,7 @@
       "Suggests": [
         "BiocParallel",
         "HDF5Array (>= 1.17.12)",
+        "ZarrArray",
         "genefilter",
         "SummarizedExperiment",
         "airway",
@@ -463,11 +464,11 @@
       ],
       "VignetteBuilder": "knitr",
       "Collate": "compress_atomic_vector.R makeCappedVolumeBox.R AutoBlock-global-settings.R AutoGrid.R blockApply.R DelayedOp-class.R DelayedSubset-class.R DelayedAperm-class.R DelayedUnaryIsoOpStack-class.R DelayedUnaryIsoOpWithArgs-class.R DelayedSubassign-class.R DelayedSetDimnames-class.R DelayedNaryIsoOp-class.R DelayedAbind-class.R showtree.R simplify.R DelayedArray-class.R DelayedArray-subsetting.R chunkGrid.R RealizationSink-class.R realize.R DelayedArray-utils.R DelayedArray-stats.R matrixStats-methods.R DelayedMatrix-rowsum.R DelayedMatrix-mult.R ConstantArray-class.R RleArraySeed-class.R RleArray-class.R compat.R zzz.R",
-      "git_url": "https://git.bioconductor.org/packages/DelayedArray",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "b5064f8",
-      "git_last_commit_date": "2026-04-28",
-      "Repository": "Bioconductor 3.23",
+      "Config/pak/sysreqs": "zlib1g-dev",
+      "Repository": "https://bioc-release.r-universe.dev",
+      "RemoteUrl": "https://github.com/bioc/DelayedArray",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "63285a4ab9f3b74c894e5f709e9cde408fca78c0",
       "NeedsCompilation": "no",
       "Author": "Hervé Pagès [aut, cre] (ORCID: <https://orcid.org/0009-0002-8272-4522>), Aaron Lun [ctb], Peter Hickey [ctb]"
     },
@@ -696,7 +697,8 @@
       "NeedsCompilation": "yes",
       "Author": "Brian Ripley [aut, cre, cph], Bill Venables [aut, cph], Douglas M. Bates [ctb], Kurt Hornik [trl] (partial port ca 1998), Albrecht Gebhardt [trl] (partial port ca 1998), David Firth [ctb] (support functions for polr)",
       "Maintainer": "Brian Ripley <Brian.Ripley@R-project.org>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "Matrix": {
       "Package": "Matrix",
@@ -1034,7 +1036,7 @@
     },
     "Rsamtools": {
       "Package": "Rsamtools",
-      "Version": "2.27.2",
+      "Version": "2.28.0",
       "Source": "Bioconductor",
       "Type": "Package",
       "Title": "Binary alignment (BAM), FASTA, variant call (BCF), and tabix file import",
@@ -1087,9 +1089,9 @@
       "SystemRequirements": "GNU make",
       "VignetteBuilder": "knitr",
       "git_url": "https://git.bioconductor.org/packages/Rsamtools",
-      "git_branch": "devel",
-      "git_last_commit": "ee01a1f",
-      "git_last_commit_date": "2026-04-08",
+      "git_branch": "RELEASE_3_23",
+      "git_last_commit": "31add28",
+      "git_last_commit_date": "2026-04-28",
       "Repository": "Bioconductor 3.23",
       "NeedsCompilation": "yes",
       "Author": "Martin Morgan [aut], Hervé Pagès [aut], Valerie Obenchain [aut], Nathaniel Hayden [aut], Busayo Samuel [ctb] (Converted Rsamtools vignette from Sweave to RMarkdown / HTML.), Bioconductor Package Maintainer [cre]",
@@ -1097,7 +1099,7 @@
     },
     "S4Arrays": {
       "Package": "S4Arrays",
-      "Version": "1.12.0",
+      "Version": "1.12.1",
       "Source": "Bioconductor",
       "Title": "Foundation of array-like containers in Bioconductor",
       "Description": "The S4Arrays package defines the Array virtual class to be extended by other S4 classes that wish to implement a container with an array-like semantic. It also provides: (1) low-level functionality meant to help the developer of such container to implement basic operations like display, subsetting, or coercion of their array-like objects to an ordinary matrix or array, and (2) a framework that facilitates block processing of array-like objects (typically on-disk objects).",
@@ -1134,18 +1136,17 @@
       ],
       "VignetteBuilder": "knitr",
       "Collate": "utils.R rowsum.R abind.R aperm2.R array_selection.R Nindex-utils.R arep.R array_recycling.R Array-class.R dim-tuning-utils.R Array-subsetting.R Array-subassignment.R ArrayGrid-class.R mapToGrid.R extract_array.R type.R is_sparse.R read_block.R write_block.R show-utils.R Array-kronecker-methods.R zzz.R",
-      "git_url": "https://git.bioconductor.org/packages/S4Arrays",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "b1246fd",
-      "git_last_commit_date": "2026-04-28",
       "Repository": "Bioconductor 3.23",
+      "RemoteUrl": "https://github.com/bioc/S4Arrays",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "fd4e6c339dc25b7c4e29c3d8d3d0fa95f41a08f4",
       "NeedsCompilation": "yes",
       "Author": "Hervé Pagès [aut, cre] (ORCID: <https://orcid.org/0009-0002-8272-4522>), Jacques Serizay [ctb]",
       "Maintainer": "Hervé Pagès <hpages.on.github@gmail.com>"
     },
     "S4Vectors": {
       "Package": "S4Vectors",
-      "Version": "0.50.0",
+      "Version": "0.50.3",
       "Source": "Bioconductor",
       "Title": "Foundation of vector-like and list-like containers in Bioconductor",
       "Description": "The S4Vectors package defines the Vector and List virtual classes and a set of generic functions that extend the semantic of ordinary vectors and lists in R. Package developers can easily implement vector-like or list-like objects as concrete subclasses of Vector or List. In addition, a few low-level concrete subclasses of general interest (e.g. DataFrame, Rle, Factor, and Hits) are implemented in the S4Vectors package itself (many more are implemented in the IRanges package and in other Bioconductor infrastructure packages).",
@@ -1154,7 +1155,7 @@
       "BugReports": "https://github.com/Bioconductor/S4Vectors/issues",
       "License": "Artistic-2.0",
       "Encoding": "UTF-8",
-      "Authors@R": "c( person(\"Hervé\", \"Pagès\", role=c(\"aut\", \"cre\"), email=\"hpages.on.github@gmail.com\"), person(\"Michael\", \"Lawrence\", role=\"aut\"), person(\"Patrick\", \"Aboyoun\", role=\"aut\"), person(\"Aaron\", \"Lun\", role=\"ctb\"), person(\"Beryl\", \"Kanali\", role=\"ctb\", comment=\"Converted vignettes from Sweave to RMarkdown\"))",
+      "Authors@R": "c( person(\"Hervé\", \"Pagès\", role=c(\"aut\", \"cre\"), email=\"hpages.on.github@gmail.com\"), person(\"Michael\", \"Lawrence\", role=\"aut\"), person(\"Patrick\", \"Aboyoun\", role=\"aut\"), person(\"Adityarup\", \"Laha\", role=\"ctb\"), person(\"Aaron\", \"Lun\", role=\"ctb\"), person(\"Beryl\", \"Kanali\", role=\"ctb\", comment=\"Converted vignettes from Sweave to RMarkdown\"))",
       "Depends": [
         "R (>= 4.1.0)",
         "methods",
@@ -1178,13 +1179,12 @@
       ],
       "VignetteBuilder": "knitr",
       "Collate": "S4-utils.R show-utils.R utils.R normarg-utils.R bindROWS.R LLint-class.R isSorted.R subsetting-utils.R vector-utils.R integer-utils.R character-utils.R raw-utils.R eval-utils.R map_ranges_to_runs.R RectangularData-class.R Annotated-class.R DataFrame_OR_NULL-class.R Vector-class.R Vector-comparison.R Vector-setops.R Vector-merge.R Hits-class.R Hits-comparison.R Hits-setops.R Rle-class.R Rle-utils.R Factor-class.R List-class.R List-comparison.R splitAsList.R List-utils.R SimpleList-class.R HitsList-class.R DataFrame-class.R DataFrame-combine.R DataFrame-comparison.R DataFrame-utils.R DataFrameFactor-class.R TransposedDataFrame-class.R Pairs-class.R FilterRules-class.R stack-methods.R expand-methods.R aggregate-methods.R shiftApply-methods.R zzz.R",
-      "git_url": "https://git.bioconductor.org/packages/S4Vectors",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "9e8bd11",
-      "git_last_commit_date": "2026-04-28",
       "Repository": "Bioconductor 3.23",
+      "RemoteUrl": "https://github.com/bioc/S4Vectors",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "3bee4a2167a24942046cce364772eb59ef37fd44",
       "NeedsCompilation": "yes",
-      "Author": "Hervé Pagès [aut, cre], Michael Lawrence [aut], Patrick Aboyoun [aut], Aaron Lun [ctb], Beryl Kanali [ctb] (Converted vignettes from Sweave to RMarkdown)",
+      "Author": "Hervé Pagès [aut, cre], Michael Lawrence [aut], Patrick Aboyoun [aut], Adityarup Laha [ctb], Aaron Lun [ctb], Beryl Kanali [ctb] (Converted vignettes from Sweave to RMarkdown)",
       "Maintainer": "Hervé Pagès <hpages.on.github@gmail.com>"
     },
     "S7": {
@@ -1331,7 +1331,7 @@
     },
     "SparseArray": {
       "Package": "SparseArray",
-      "Version": "1.12.0",
+      "Version": "1.12.3",
       "Source": "Bioconductor",
       "Title": "High-performance sparse data representation and manipulation in R",
       "Description": "The SparseArray package provides array-like containers for efficient in-memory representation of multidimensional sparse data in R (arrays and matrices). The package defines the SparseArray virtual class and two concrete subclasses: COO_SparseArray and SVT_SparseArray. Each subclass uses its own internal representation of the nonzero multidimensional data: the \"COO layout\" and the \"SVT layout\", respectively. SVT_SparseArray objects mimic as much as possible the behavior of ordinary matrix and array objects in base R. In particular, they suppport most of the \"standard matrix and array API\" defined in base R and in the matrixStats package from CRAN.",
@@ -1348,7 +1348,7 @@
         "BiocGenerics (>= 0.43.1)",
         "MatrixGenerics (>= 1.11.1)",
         "S4Vectors (>= 0.43.2)",
-        "S4Arrays (>= 1.11.1)"
+        "S4Arrays (>= 1.12.1)"
       ],
       "Imports": [
         "utils",
@@ -1372,11 +1372,11 @@
       ],
       "VignetteBuilder": "knitr",
       "Collate": "utils.R options.R OPBufTree.R thread-control.R sparseMatrix-utils.R is_nonzero.R SparseArray-class.R COO_SparseArray-class.R SVT_SparseArray-class.R extract_sparse_array.R read_block_as_sparse.R SparseArray-dim-tuning.R SparseArray-aperm.R SparseArray-subsetting.R SparseArray-subassignment.R SparseArray-abind.R SparseArray-summarization.R SparseArray-Arith-methods.R SparseArray-Compare-methods.R SparseArray-Logic-methods.R SparseArray-Math-methods.R SparseArray-Complex-methods.R SparseArray-misc-methods.R SparseArray-matrixStats.R rowsum-methods.R SparseMatrix-mult.R randomSparseArray.R readSparseCSV.R is_nonna.R NaArray-class.R NaArray-aperm.R NaArray-subsetting.R NaArray-subassignment.R NaArray-abind.R NaArray-summarization.R NaArray-Arith-methods.R NaArray-Compare-methods.R NaArray-Logic-methods.R NaArray-Math-methods.R NaArray-misc-methods.R NaArray-matrixStats.R zzz.R",
-      "git_url": "https://git.bioconductor.org/packages/SparseArray",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "9a2762a",
-      "git_last_commit_date": "2026-04-28",
+      "Config/pak/sysreqs": "zlib1g-dev",
       "Repository": "Bioconductor 3.23",
+      "RemoteUrl": "https://github.com/bioc/SparseArray",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "48f90efbca8f62328b9ab10cd30ac79b917afa2a",
       "NeedsCompilation": "yes",
       "Author": "Hervé Pagès [aut, cre] (ORCID: <https://orcid.org/0009-0002-8272-4522>), Vince Carey [fnd] (ORCID: <https://orcid.org/0000-0003-4046-0063>), Rafael A. Irizarry [fnd] (ORCID: <https://orcid.org/0000-0002-3944-4309>), Jacques Serizay [ctb] (ORCID: <https://orcid.org/0000-0002-4295-0624>)",
       "Maintainer": "Hervé Pagès <hpages.on.github@gmail.com>"
@@ -1834,7 +1834,8 @@
       "NeedsCompilation": "yes",
       "Author": "Steve Dutky [aut] (S original; then (after MM's port) revised and modified), Martin Maechler [cre, aut] (Initial R port; tweaks, <https://orcid.org/0000-0002-8685-9910>)",
       "Maintainer": "Martin Maechler <maechler@stat.math.ethz.ch>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "blob": {
       "Package": "blob",
@@ -2149,7 +2150,8 @@
       "NeedsCompilation": "yes",
       "Author": "Stilianos Louca [aut, cre, cph]",
       "Maintainer": "Stilianos Louca <louca.research@gmail.com>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "cellranger": {
       "Package": "cellranger",
@@ -2184,7 +2186,7 @@
     },
     "cigarillo": {
       "Package": "cigarillo",
-      "Version": "1.2.0",
+      "Version": "1.2.1",
       "Source": "Bioconductor",
       "Title": "Efficient manipulation of CIGAR strings",
       "Description": "CIGAR stands for Concise Idiosyncratic Gapped Alignment Report. CIGAR strings are found in the BAM files produced by most aligners and in the AIRR-formatted output produced by IgBLAST. The cigarillo package provides functions to parse and inspect CIGAR strings, trim them, turn them into ranges of positions relative to the \"query space\" or \"reference space\", and project positions or sequences from one space to the other. Note that these operations are low-level operations that the user rarely needs to perform directly. More typically, they are performed behind the scene by higher-level functionality implemented in other packages like Bioconductor packages GenomicAlignments and igblastr.",
@@ -2220,11 +2222,11 @@
       ],
       "VignetteBuilder": "knitr",
       "Collate": "utils.R cigar_ops_visibility.R explode_cigars.R tabulate_cigar_ops.R cigar_extent.R trim_cigars.R cigars_as_ranges.R project_positions.R project_sequences.R map_ref_ranges_to_query.R",
-      "git_url": "https://git.bioconductor.org/packages/cigarillo",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "2fdb706",
-      "git_last_commit_date": "2026-04-28",
+      "Config/pak/sysreqs": "zlib1g-dev",
       "Repository": "Bioconductor 3.23",
+      "RemoteUrl": "https://github.com/bioc/cigarillo",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "f6d2ae7d90f926f44ebde8112deb3baa13bb3103",
       "NeedsCompilation": "yes",
       "Author": "Hervé Pagès [aut, cre] (ORCID: <https://orcid.org/0009-0002-8272-4522>), Valerie Obenchain [aut], Michael Lawrence [aut], Patrick Aboyoun [ctb], Fedor Bezrukov [ctb], Martin Morgan [ctb]",
       "Maintainer": "Hervé Pagès <hpages.on.github@gmail.com>"
@@ -2348,7 +2350,8 @@
       "URL": "https://svn.r-project.org/R-packages/trunk/cluster/",
       "NeedsCompilation": "yes",
       "Author": "Martin Maechler [aut, cre] (ORCID: <https://orcid.org/0000-0002-8685-9910>), Peter Rousseeuw [aut] (Fortran original, ORCID: <https://orcid.org/0000-0002-3807-5353>), Anja Struyf [aut] (S original), Mia Hubert [aut] (S original, ORCID: <https://orcid.org/0000-0001-6398-4850>), Kurt Hornik [trl, ctb] (port to R; maintenance(1999-2000), ORCID: <https://orcid.org/0000-0003-4198-9911>), Matthias Studer [ctb], Pierre Roudier [ctb], Juan Gonzalez [ctb], Kamil Kozlowski [ctb], Erich Schubert [ctb] (fastpam options for pam(), ORCID: <https://orcid.org/0000-0001-9143-4880>), Keefe Murphy [ctb] (volume.ellipsoid({d >= 3}))",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "codetools": {
       "Package": "codetools",
@@ -3634,7 +3637,7 @@
     },
     "ggtree": {
       "Package": "ggtree",
-      "Version": "4.2.0",
+      "Version": "4.2.1",
       "Source": "Bioconductor",
       "Type": "Package",
       "Title": "an R package for visualization of tree and annotation data",
@@ -3689,11 +3692,11 @@
       "biocViews": "Alignment, Annotation, Clustering, DataImport, MultipleSequenceAlignment, Phylogenetics, ReproducibleResearch, Software, Visualization",
       "RoxygenNote": "7.3.3",
       "Roxygen": "list(markdown = TRUE)",
-      "git_url": "https://git.bioconductor.org/packages/ggtree",
-      "git_branch": "RELEASE_3_23",
-      "git_last_commit": "c23145e",
-      "git_last_commit_date": "2026-04-28",
+      "Config/pak/sysreqs": "libcairo2-dev cmake libfontconfig1-dev libfreetype6-dev make libicu-dev libpng-dev libuv1-dev",
       "Repository": "Bioconductor 3.23",
+      "RemoteUrl": "https://github.com/bioc/ggtree",
+      "RemoteRef": "RELEASE_3_23",
+      "RemoteSha": "90c87eeda3c3aad9465597ee981d934fdfad8a53",
       "NeedsCompilation": "no",
       "Author": "Guangchuang Yu [aut, cre, cph] (ORCID: <https://orcid.org/0000-0002-6485-8781>), Tommy Tsan-Yuk Lam [aut, ths], Shuangbin Xu [aut] (ORCID: <https://orcid.org/0000-0003-3513-5362>), Lin Li [ctb], Bradley Jones [ctb], Justin Silverman [ctb], Watal M. Iwasaki [ctb], Yonghe Xia [ctb], Ruizhu Huang [ctb]"
     },
@@ -3769,15 +3772,14 @@
       "LazyData": "true",
       "Roxygen": "list(markdown = TRUE)",
       "RoxygenNote": "7.3.2",
+      "Author": "Yusuke Koseki [aut, cre] (ORCID: <https://orcid.org/0000-0001-9588-3018>)",
+      "Maintainer": "Yusuke Koseki <ykoseki@otsuma.ac.jp>",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "gmmDenoise",
       "RemoteUsername": "YSKoseki",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ac89dbb473e72ca322d64ec6d84341ccb8885ebe",
-      "NeedsCompilation": "no",
-      "Author": "Yusuke Koseki [aut, cre] (ORCID: <https://orcid.org/0000-0001-9588-3018>)",
-      "Maintainer": "Yusuke Koseki <ykoseki@otsuma.ac.jp>"
+      "RemoteSha": "ac89dbb473e72ca322d64ec6d84341ccb8885ebe"
     },
     "googledrive": {
       "Package": "googledrive",
@@ -4588,7 +4590,8 @@
       "License": "LGPL-3",
       "LazyLoad": "yes",
       "NeedsCompilation": "no",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "later": {
       "Package": "later",
@@ -4667,7 +4670,8 @@
       "NeedsCompilation": "yes",
       "Author": "Deepayan Sarkar [aut, cre] (ORCID: <https://orcid.org/0000-0003-4107-1553>), Felix Andrews [ctb], Kevin Wright [ctb] (documentation), Neil Klepeis [ctb], Johan Larsson [ctb] (miscellaneous improvements), Zhijian (Jason) Wen [cph] (filled contour code), Paul Murrell [ctb], Stefan Eng [ctb] (violin plot improvements), Achim Zeileis [ctb] (modern colors), Alexandre Courtiol [ctb] (generics for larrows, lpolygon, lrect and lsegments)",
       "Maintainer": "Deepayan Sarkar <deepayan.sarkar@r-project.org>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "latticeExtra": {
       "Package": "latticeExtra",
@@ -4948,7 +4952,8 @@
       "NeedsCompilation": "yes",
       "Author": "Simon Wood [aut, cre]",
       "Maintainer": "Simon Wood <simon.wood@r-project.org>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "mime": {
       "Package": "mime",
@@ -5267,7 +5272,8 @@
       "NeedsCompilation": "no",
       "Author": "Gavin L. Simpson [aut, cph, cre] (ORCID: <https://orcid.org/0000-0002-9084-8413>), R Core Team [cph], Douglas M. Bates [ctb], Jari Oksanen [ctb]",
       "Maintainer": "Gavin L. Simpson <ucfagls@gmail.com>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "phangorn": {
       "Package": "phangorn",
@@ -5319,7 +5325,7 @@
       "VignetteBuilder": "knitr, utils",
       "biocViews": "Software, Technology, QualityControl",
       "Encoding": "UTF-8",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "RoxygenNote": "7.3.2",
       "Language": "en-US",
       "Config/testthat/edition": "3",
@@ -6555,7 +6561,8 @@
       "NeedsCompilation": "no",
       "Author": "Vito M. R. Muggeo [aut, cre] (ORCID: <https://orcid.org/0000-0002-3386-4054>)",
       "RoxygenNote": "7.3.1",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "selectr": {
       "Package": "selectr",
@@ -6584,7 +6591,8 @@
       "NeedsCompilation": "no",
       "Author": "Simon Potter [aut, trl, cre], Simon Sapin [aut], Ian Bicking [aut]",
       "Maintainer": "Simon Potter <simon@sjp.co.nz>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "snow": {
       "Package": "snow",
@@ -6647,7 +6655,8 @@
       "NeedsCompilation": "yes",
       "Author": "Edzer Pebesma [aut, cre], Roger Bivand [aut], Barry Rowlingson [ctb], Virgilio Gomez-Rubio [ctb], Robert Hijmans [ctb], Michael Sumner [ctb], Don MacQueen [ctb], Jim Lemon [ctb], Finn Lindgren [ctb], Josh O'Brien [ctb], Joseph O'Rourke [ctb], Patrick Hausmann [ctb], Sebastian Meyer [ctb]",
       "Maintainer": "Edzer Pebesma <edzer.pebesma@uni-muenster.de>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "speedyseq": {
       "Package": "speedyseq",
@@ -6660,6 +6669,7 @@
       "BugReports": "https://github.com/mikemc/speedyseq/issues",
       "License": "AGPL-3 + file LICENSE",
       "Encoding": "UTF-8",
+      "LazyData": "true",
       "Depends": [
         "phyloseq"
       ],
@@ -6693,15 +6703,14 @@
         "withr"
       ],
       "Roxygen": "list(markdown = TRUE)",
+      "Author": "Michael McLaren [aut, cre]",
+      "Maintainer": "Michael McLaren <m.mclaren42@gmail.com>",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "speedyseq",
       "RemoteUsername": "mikemc",
       "RemoteRef": "HEAD",
-      "RemoteSha": "0057652ff7a4244ccef2b786dca58d901ec2fc62",
-      "NeedsCompilation": "no",
-      "Author": "Michael McLaren [aut, cre]",
-      "Maintainer": "Michael McLaren <m.mclaren42@gmail.com>"
+      "RemoteSha": "0057652ff7a4244ccef2b786dca58d901ec2fc62"
     },
     "stringi": {
       "Package": "stringi",
@@ -6806,7 +6815,8 @@
       "NeedsCompilation": "yes",
       "Author": "Terry M Therneau [aut, cre], Thomas Lumley [ctb, trl] (original S->R port and R maintainer until 2009), Atkinson Elizabeth [ctb], Crowson Cynthia [ctb]",
       "Maintainer": "Terry M Therneau <therneau.terry@mayo.edu>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "svglite": {
       "Package": "svglite",
@@ -7289,7 +7299,7 @@
     },
     "treeio": {
       "Package": "treeio",
-      "Version": "1.36.0",
+      "Version": "1.36.1",
       "Source": "Bioconductor",
       "Title": "Base Classes and Functions for Phylogenetic Tree Input and Output",
       "Authors@R": "c( person(\"Guangchuang\", \"Yu\",     email = \"guangchuangyu@gmail.com\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-6485-8781\")), person(\"Tommy Tsan-Yuk\", \"Lam\", email = \"tylam.tommy@gmail.com\",   role = c(\"ctb\", \"ths\")), person(\"Shuangbin\", \"Xu\",       email = \"xshuangbin@163.com\",      role = \"ctb\",           comment = c(ORCID=\"0000-0003-3513-5362\")), person(\"Bradley\", \"Jones\",      email = \"brj1@sfu.ca\",             role = \"ctb\"), person(\"Casey\", \"Dunn\",         email = \"casey_dunn@brown.edu\",    role = \"ctb\"), person(\"Tyler\", \"Bradley\",      email = \"tcb85@drexel.edu\",        role = \"ctb\"), person(\"Konstantinos\", \"Geles\", email = \"konstantinos.geles@studenti.unicz.it\", role = \"ctb\") )",
@@ -7337,8 +7347,8 @@
       "RoxygenNote": "7.3.2",
       "git_url": "https://git.bioconductor.org/packages/treeio",
       "git_branch": "RELEASE_3_23",
-      "git_last_commit": "1be2659",
-      "git_last_commit_date": "2026-04-28",
+      "git_last_commit": "098376f",
+      "git_last_commit_date": "2026-04-30",
       "Repository": "Bioconductor 3.23",
       "NeedsCompilation": "no",
       "Author": "Guangchuang Yu [aut, cre] (ORCID: <https://orcid.org/0000-0002-6485-8781>), Tommy Tsan-Yuk Lam [ctb, ths], Shuangbin Xu [ctb] (ORCID: <https://orcid.org/0000-0003-3513-5362>), Bradley Jones [ctb], Casey Dunn [ctb], Tyler Bradley [ctb], Konstantinos Geles [ctb]",
@@ -7502,7 +7512,8 @@
       "NeedsCompilation": "yes",
       "Author": "Jari Oksanen [aut, cre], Gavin L. Simpson [aut], F. Guillaume Blanchet [aut], Roeland Kindt [aut], Pierre Legendre [aut], Peter R. Minchin [aut], R.B. O'Hara [aut], Peter Solymos [aut], M. Henry H. Stevens [aut], Eduard Szoecs [aut], Helene Wagner [aut], Matt Barbour [aut], Michael Bedward [aut], Ben Bolker [aut], Daniel Borcard [aut], Tuomas Borman [aut], Gustavo Carvalho [aut], Michael Chirico [aut], Miquel De Caceres [aut], Sebastien Durand [aut], Heloisa Beatriz Antoniazi Evangelista [aut], Rich FitzJohn [aut], Michael Friendly [aut], Brendan Furneaux [aut], Geoffrey Hannigan [aut], Mark O. Hill [aut], Leo Lahti [aut], Cameron Martino [aut], Dan McGlinn [aut], Marie-Helene Ouellette [aut], Eduardo Ribeiro Cunha [aut], Tyler Smith [aut], Adrian Stier [aut], Cajo J.F. Ter Braak [aut], James Weedon [aut]",
       "Maintainer": "Jari Oksanen <jhoksane@gmail.com>",
-      "Repository": "CRAN"
+      "Repository": "RSPM",
+      "Encoding": "UTF-8"
     },
     "viridisLite": {
       "Package": "viridisLite",
